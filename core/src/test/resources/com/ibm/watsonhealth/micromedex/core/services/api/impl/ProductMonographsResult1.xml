@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot>
+    <ProductData>
+        <Type>Soln</Type>
+        <Description>Dextrose 5% in lactated Ringers</Description>
+        <OtherNames/>
+        <TradeNames>tradename 1;tradename 2;tradename</TradeNames>
+        <Reconstitution/>
+        <Display>1</Display>
+        <Formulation>formulation description</Formulation>
+        <Osmolality>Osmolality</Osmolality>
+        <pHmin>pH Min</pHmin>
+        <pHeffects>pH Effects</pHeffects>
+        <pHmax>pH Max</pHmax>
+        <pHrange/>
+        <pHmean/>
+        <Storage/>
+        <Freezing/>
+        <LightEffects/>
+        <Stability/>
+        <StabilityMax/>
+        <Sorption/>
+        <Filtration/>
+        <SodiumContent/>
+        <Other/>
+        <ProductID>1000000</ProductID>
+        <MultiFormulation>true</MultiFormulation>
+        <LastUpdate>2021-09-15T12:58:43</LastUpdate>
+        <LastUserID>admin</LastUserID>
+        <RedbookData derived="true">
+            <Gfcs>
+                <Gfc>
+                    <code>114451</code>
+                    <products>
+                        <ndc>00264-1751-00</ndc>
+                        <ndc>00264-1751-10</ndc>
+                    </products>
+                </Gfc>
+                <Gfc>
+                    <code>112912</code>
+                    <products>
+                        <ndc>00074-7929-03</ndc>
+                        <ndc>00074-7929-09</ndc>
+                        <ndc>00264-3510-55</ndc>
+                        <ndc>00264-3511-55</ndc>
+                        <ndc>00264-7751-00</ndc>
+                        <ndc>00264-7751-10</ndc>
+                        <ndc>00264-7751-20</ndc>
+                        <ndc>00338-0125-03</ndc>
+                        <ndc>00338-0125-04</ndc>
+                        <ndc>00338-6306-04</ndc>
+                        <ndc>00409-7929-03</ndc>
+                        <ndc>00409-7929-09</ndc>
+                        <ndc>00990-7929-03</ndc>
+                        <ndc>00990-7929-09</ndc>
+                    </products>
+                </Gfc>
+            </Gfcs>
+        </RedbookData>
+        <References>
+            <Reference>
+                <ProductDataID>1000000</ProductDataID>
+                <Field>Reconstitution</Field>
+                <Code>64165</Code>
+                <Author>First Author, second author, Et al</Author>
+                <Title>Title Citation 1</Title>
+                <Journal>c1</Journal>
+                <Year>1.1.2021</Year>
+                <Volume>Volume Issue Citation 2</Volume>
+                <Pages>100</Pages>
+            </Reference>
+            <Reference>
+                <ProductDataID>1000000</ProductDataID>
+                <Field>Osmolality</Field>
+                <Code>64165</Code>
+                <Author>First Author, second author, Et al</Author>
+                <Title>Title Citation 1</Title>
+                <Journal>c1</Journal>
+                <Year>1.1.2021</Year>
+                <Volume>Volume Issue Citation 2</Volume>
+                <Pages>100</Pages>
+            </Reference>
+            <Reference>
+                <ProductDataID>1000000</ProductDataID>
+                <Field>Osmolality</Field>
+                <Code>74165</Code>
+                <Author/>
+                <Title>Prescribing Information</Title>
+                <Journal/>
+                <Year/>
+                <Volume/>
+                <Pages/>
+            </Reference>
+        </References>
+        <AemPath>/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1/jcr:content/root/container/substance/container/formulation</AemPath>
+    </ProductData>
+    <ProductData>
+        <Type>Soln</Type>
+        <Description>Dextrose 5% in lactated Ringers</Description>
+        <OtherNames/>
+        <TradeNames>tradename 1;tradename 2;tradename 2</TradeNames>
+        <Reconstitution/>
+        <Display>1</Display>
+        <Formulation>formulation description 2</Formulation>
+        <Osmolality>Osmolality</Osmolality>
+        <pHmin>pH Min 2</pHmin>
+        <pHeffects>pH Effects 2</pHeffects>
+        <pHmax>pH Max 2</pHmax>
+        <pHrange/>
+        <pHmean/>
+        <Storage/>
+        <Freezing/>
+        <LightEffects/>
+        <Stability/>
+        <StabilityMax/>
+        <Sorption/>
+        <Filtration/>
+        <SodiumContent/>
+        <Other/>
+        <ProductID>1000000</ProductID>
+        <MultiFormulation>true</MultiFormulation>
+        <LastUpdate>2021-09-15T12:58:43</LastUpdate>
+        <LastUserID>admin</LastUserID>
+        <RedbookData derived="true">
+            <Gfcs>
+                <Gfc>
+                    <code>114451</code>
+                    <products>
+                        <ndc>00264-1751-00</ndc>
+                        <ndc>00264-1751-10</ndc>
+                    </products>
+                </Gfc>
+                <Gfc>
+                    <code>112912</code>
+                    <products>
+                        <ndc>00074-7929-03</ndc>
+                        <ndc>00074-7929-09</ndc>
+                        <ndc>00264-3510-55</ndc>
+                        <ndc>00264-3511-55</ndc>
+                        <ndc>00264-7751-00</ndc>
+                        <ndc>00264-7751-10</ndc>
+                        <ndc>00264-7751-20</ndc>
+                        <ndc>00338-0125-03</ndc>
+                        <ndc>00338-0125-04</ndc>
+                        <ndc>00338-6306-04</ndc>
+                        <ndc>00409-7929-03</ndc>
+                        <ndc>00409-7929-09</ndc>
+                        <ndc>00990-7929-03</ndc>
+                        <ndc>00990-7929-09</ndc>
+                    </products>
+                </Gfc>
+            </Gfcs>
+        </RedbookData>
+        <References>
+            <Reference>
+                <ProductDataID>1000000</ProductDataID>
+                <Field>Reconstitution</Field>
+                <Code>64165</Code>
+                <Author>First Author, second author, Et al</Author>
+                <Title>Title Citation 1</Title>
+                <Journal>c1</Journal>
+                <Year>1.1.2021</Year>
+                <Volume>Volume Issue Citation 2</Volume>
+                <Pages>100</Pages>
+            </Reference>
+            <Reference>
+                <ProductDataID>1000000</ProductDataID>
+                <Field>Osmolality</Field>
+                <Code>64165</Code>
+                <Author>First Author, second author, Et al</Author>
+                <Title>Title Citation 1</Title>
+                <Journal>c1</Journal>
+                <Year>1.1.2021</Year>
+                <Volume>Volume Issue Citation 2</Volume>
+                <Pages>100</Pages>
+            </Reference>
+        </References>
+        <AemPath>/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1/jcr:content/root/container/substance/container/formulation2</AemPath>
+    </ProductData>
+    <ProductData>
+        <Type>Drug</Type>
+        <Description>Year aspirin regimen began [Date]</Description>
+        <OtherNames/>
+        <TradeNames>tradename 1;</TradeNames>
+        <Reconstitution/>
+        <Display>1</Display>
+        <Formulation>formulation desc</Formulation>
+        <Osmolality/>
+        <pHmin/>
+        <pHeffects/>
+        <pHmax/>
+        <pHrange/>
+        <pHmean/>
+        <Storage/>
+        <Freezing/>
+        <LightEffects/>
+        <Stability/>
+        <StabilityMax/>
+        <Sorption/>
+        <Filtration/>
+        <SodiumContent/>
+        <Other/>
+        <ProductID>1000001</ProductID>
+        <MultiFormulation>false</MultiFormulation>
+        <LastUpdate>2021-09-16T09:30:34</LastUpdate>
+        <LastUserID>admin</LastUserID>
+        <RedbookData/>
+        <References/>
+        <AemPath>/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-2/jcr:content/root/container/substance/container/formulation</AemPath>
+    </ProductData>
+    <ProductData>
+        <Type>Soln</Type>
+        <Description>Dextrose 5% in lactated Ringers</Description>
+        <OtherNames>product 3 alternative name 1; product 3 alternative name 2</OtherNames>
+        <TradeNames>tradename 1 product 3;tradename 2 product 3;tradename</TradeNames>
+        <Reconstitution/>
+        <Display>1</Display>
+        <Formulation>formulation description</Formulation>
+        <Osmolality>Osmolality</Osmolality>
+        <pHmin>pH Min</pHmin>
+        <pHeffects>pH Effects</pHeffects>
+        <pHmax>pH Max</pHmax>
+        <pHrange/>
+        <pHmean/>
+        <Storage/>
+        <Freezing/>
+        <LightEffects/>
+        <Stability/>
+        <StabilityMax/>
+        <Sorption/>
+        <Filtration/>
+        <SodiumContent/>
+        <Other/>
+        <ProductID>1000003</ProductID>
+        <MultiFormulation>false</MultiFormulation>
+        <LastUpdate>2021-09-15T12:58:43</LastUpdate>
+        <LastUserID>admin</LastUserID>
+        <RedbookData/>
+        <References>
+            <Reference>
+                <ProductDataID>1000003</ProductDataID>
+                <Field>Reconstitution</Field>
+                <Code>64165</Code>
+                <Author>First Author, second author, Et al</Author>
+                <Title>Title Citation 1</Title>
+                <Journal>c1</Journal>
+                <Year>1.1.2021</Year>
+                <Volume>Volume Issue Citation 2</Volume>
+                <Pages>100</Pages>
+            </Reference>
+            <Reference>
+                <ProductDataID>1000003</ProductDataID>
+                <Field>Osmolality</Field>
+                <Code>64165</Code>
+                <Author>First Author, second author, Et al</Author>
+                <Title>Title Citation 1</Title>
+                <Journal>c1</Journal>
+                <Year>1.1.2021</Year>
+                <Volume>Volume Issue Citation 2</Volume>
+                <Pages>100</Pages>
+            </Reference>
+            <Reference>
+                <ProductDataID>1000003</ProductDataID>
+                <Field>Osmolality</Field>
+                <Code>74165</Code>
+                <Author/>
+                <Title>Prescribing Information</Title>
+                <Journal/>
+                <Year/>
+                <Volume/>
+                <Pages/>
+            </Reference>
+        </References>
+        <AemPath>/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-3/jcr:content/root/container/substance/container/formulation</AemPath>
+    </ProductData>
+</dataroot>

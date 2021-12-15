@@ -1,0 +1,26 @@
+<!--/*
+    Copyright 2017 Adobe Systems Incorporated
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.css @ categories='contentauthoring.base'}"/>
+</sly>
+
+<sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
+
+<!--/* JIRA Collector Plugin */-->
+<script type="text/javascript"
+        src="https://jira.wh-sdlc.watson-health.ibm.com/s/d41d8cd98f00b204e9800998ecf8427e-CDN/-1y29cf/813008/1am8j4d/2.2.4.7/_/download/batch/com.atlassian.plugins.jquery:jquery/com.atlassian.plugins.jquery:jquery.js?collectorId=15c69c12"></script>
+<script type="text/javascript"
+        src="https://jira.wh-sdlc.watson-health.ibm.com/s/ad38257fac5515cc798b4c78c0aec98b-T/-1y29cf/813008/1am8j4d/4.0.4/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=15c69c12"></script>

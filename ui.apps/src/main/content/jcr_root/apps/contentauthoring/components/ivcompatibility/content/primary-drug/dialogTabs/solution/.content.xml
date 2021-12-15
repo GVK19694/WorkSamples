@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Vehicle Details"
+          margin="{Boolean}true"
+          sling:resourceType="granite/ui/components/coral/foundation/container">
+    <items jcr:primaryType="nt:unstructured">
+        <container
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+            <items jcr:primaryType="nt:unstructured">
+                <column
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                    <items jcr:primaryType="nt:unstructured">
+                        <contains-solution
+                            jcr:primaryType="nt:unstructured"
+                            granite:class="cq-dialog-checkbox-showhide solutionpath-enable-validation-checkbox"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                            name="./solutionEnabled"
+                            text="Contains Vehicle"
+                            value="true">
+                            <granite:data
+                                jcr:primaryType="nt:unstructured"
+                                cq-dialog-checkbox-showhide-target=".solution-showhide-target"/>
+                        </contains-solution>
+                        <solution
+                            jcr:primaryType="nt:unstructured"
+                            granite:class="solution-showhide-target hide"
+                            sling:resourceType="granite/ui/components/coral/foundation/container">
+                            <items jcr:primaryType="nt:unstructured">
+                                <solution-path
+                                    jcr:primaryType="nt:unstructured"
+                                    granite:class="solution-selectbox-custom-filter"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                    required="{Boolean}false"
+                                    emptyOption="{Boolean}true"
+                                    fieldLabel="Name *"
+                                    validation="solutionPathValidation"
+                                    name="./solutionPath">
+                                    <datasource
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="/servlets/solutionlookupdatasource"/>
+                                </solution-path>
+                                <solution-manufacturer
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                    required="{Boolean}false"
+                                    fieldLabel="Manufacturer"
+                                    name="./solutionManufacturer"/>
+                                <solution-tradename
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                    required="{Boolean}false"
+                                    fieldLabel="Tradename"
+                                    name="./solutionTradename"/>
+                                <solution-volume
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                    required="{Boolean}false"
+                                    fieldLabel="Volume and Units"
+                                    name="./solutionVolume"/>
+                            </items>
+                        </solution>
+                    </items>
+                </column>
+            </items>
+        </container>
+    </items>
+</jcr:root>

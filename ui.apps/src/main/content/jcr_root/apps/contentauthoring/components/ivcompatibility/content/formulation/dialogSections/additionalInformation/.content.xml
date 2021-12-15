@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Additional Information"
+          margin="{Boolean}true"
+          sling:resourceType="granite/ui/components/coral/foundation/container">
+    <items jcr:primaryType="nt:unstructured">
+        <add-additional-information
+            jcr:primaryType="nt:unstructured"
+            granite:class="cq-dialog-checkbox-showhide"
+            sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+            name="./addAdditionalInformation"
+            text="Add Additional Information"
+            value="true">
+            <granite:data
+                jcr:primaryType="nt:unstructured"
+                cq-dialog-checkbox-showhide-target=".additionalInformation-showhide-target"/>
+        </add-additional-information>
+        <additional-information
+            jcr:primaryType="nt:unstructured"
+            granite:class="additionalInformation-showhide-target hide"
+            sling:resourceType="granite/ui/components/coral/foundation/container">
+            <items jcr:primaryType="nt:unstructured">
+                <filtration
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="Filtration"
+                    name="./filtration">
+                </filtration>
+                <filtration-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="Filtration Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./filtrationReferences"/>
+                </filtration-references>
+                <sodium-content
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="Sodium Content"
+                    name="./sodiumContent"/>
+                <sodiumContent-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="Sodium Content Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./sodiumContentReferences"/>
+                </sodiumContent-references>
+                <other-information
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                    required="{Boolean}false"
+                    fieldLabel="Other Information"
+                    name="./otherInformation">
+                </other-information>
+                <otherInformation-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="Other Information Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./otherInformationReferences"/>
+                </otherInformation-references>
+            </items>
+        </additional-information>
+    </items>
+</jcr:root>

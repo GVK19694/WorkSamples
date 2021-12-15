@@ -1,0 +1,59 @@
+<div data-sly-use.model="com.ibm.watsonhealth.micromedex.core.models.citation.Citation" class="cmp-citation">
+
+    <sly data-sly-use.validationTemplate="/apps/contentauthoring/components/commons/templates/validation/validation.html"/>
+
+    <sly data-sly-call="${validationTemplate.validation @ headline='Citation', headlineLevel='2', model=model, resourcepath=resource.path, pagevalidation=false}"/>
+
+    <ul>
+        <li><span class="property-label">Citation Type: </span>${model.citationType.displayName}</li>
+        <li><span class="property-label">Citation ID: </span>${model.citationId}</li>
+        <li><span class="property-label">Publication Date: </span>${model.publicationDate}</li>
+        <li data-sly-test.city="${model.city || model.productInfo}"><span class="property-label">City: </span>${model.city}</li>
+        <li data-sly-test.state="${model.state || model.productInfo}"><span class="property-label">State: </span>${model.state}</li>
+        <li data-sly-test.country="${model.country}"><span class="property-label">Country: </span>${country}</li>
+        <li data-sly-test.comment="${model.comment}"><span class="property-label">Comment: </span>${comment}</li>
+
+        <sly data-sly-test="${model.productInfo}">
+            <li><span class="property-label">Brand Name:</span> ${model.brandName}</li>
+            <li data-sly-test.genericName="${model.genericName}"><span class="property-label">Generic Name: </span>${genericName}</li>
+            <li data-sly-test.manufacturer="${model.manufacturer}"><span class="property-label">Manufacturer: </span>${manufacturer}</li>
+        </sly>
+
+        <sly data-sly-test="${model.generic}">
+            <li data-sly-test.author="${model.author}"><span class="property-label">Author: </span>${author}</li>
+            <li><span class="property-label">Title: </span>${model.title}</li>
+            <li><span class="property-label">Source: </span>${model.source}</li>
+            <li data-sly-test.inline="${model.inline}"><span class="property-label">Inline: </span>${inline}</li>
+            <li data-sly-test.citrefText="${model.citrefText}"><span class="property-label">Citref text: </span>${citrefText}</li>
+        </sly>
+
+        <sly data-sly-test="${model.book || model.journal || model.electronic}">
+            <li><span class="property-label">First Author: </span>${model.firstAuthor}</li>
+            <li data-sly-test.secondAuthor="${model.secondAuthor}"><span class="property-label">Second Author: </span>${secondAuthor}</li>
+            <li data-sly-test.thirdAuthor="${model.thirdAuthor}"><span class="property-label">Third Author: </span>${thirdAuthor}</li>
+            <li data-sly-test.etal="${model.etal}"><span class="property-label">Et al: </span>${etal}</li>
+            <li><span class="property-label">Title: </span>${model.title}</li>
+            <li data-sly-test.volumeIssue="${model.volumeIssue}"><span class="property-label">Volume Issue: </span>${volumeIssue}</li>
+            <li data-sly-test.publisherName="${model.publisherName}"><span class="property-label">Publisher Name: </span>${publisherName}</li>
+            <li data-sly-test.documentationType="${model.documentationType}"><span class="property-label">Documentation Type: </span>${documentationType}</li>
+            <li data-sly-test.pages="${model.pages}"><span class="property-label">Pages: </span>${pages}</li>
+            <sly data-sly-test="${model.book}">
+                <li data-sly-test.editors="${model.editors}"><span class="property-label">Editors: </span>${editors}</li>
+                <li data-sly-test.edition="${model.edition}"><span class="property-label">Edition: </span>${edition}</li>
+                <li data-sly-test.chapterTitle="${model.chapterTitle}"><span class="property-label">Chapter Title: </span>${chapterTitle}</li>
+            </sly>
+            <sly data-sly-test="${model.journal}">
+                <li data-sly-test.journalAbbreviation="${model.journalAbbreviation}"><span class="property-label">Journal Abbreviation: </span>${journalAbbreviation}
+                </li>
+            </sly>
+            <sly data-sly-test="${model.electronic}">
+                <li data-sly-test.url="${model.url}"><span class="property-label">URL: </span>${url}</li>
+                <li data-sly-test.accessedOn="${model.accessedOn}"><span class="property-label">Accessed On: </span>${accessedOn}</li>
+            </sly>
+        </sly>
+    </ul>
+
+    <script>
+        revalidate();
+    </script>
+</div>

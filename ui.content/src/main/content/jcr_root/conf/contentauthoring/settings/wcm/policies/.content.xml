@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          xmlns:rep="internal"
+          jcr:mixinTypes="[rep:AccessControllable]"
+          jcr:primaryType="cq:Page">
+    <rep:policy/>
+    <contentauthoring jcr:primaryType="nt:unstructured">
+        <components jcr:primaryType="nt:unstructured">
+            <commons jcr:primaryType="nt:unstructured">
+                <layout jcr:primaryType="nt:unstructured">
+                    <container jcr:primaryType="nt:unstructured">
+                        <v1 jcr:primaryType="nt:unstructured">
+                            <container jcr:primaryType="nt:unstructured">
+                                <policy_container_ivcompatibility_init
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="IV Compatibility Init"
+                                    sling:resourceType="wcm/core/components/policy/policy"
+                                    components="[group:Content Authoring - Commons - Layout,group:Content Authoring - Commons,group:IV Compatibility - Administration]"
+                                    columns="1"
+                                    layoutDisabled="false">
+                                    <jcr:content jcr:primaryType="nt:unstructured"
+                                                 jcr:mixinTypes="[cq:ReplicationStatus]"
+                                                 cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                                 cq:lastReplicatedBy="admin"
+                                                 cq:lastReplicationAction="Activate"/>
+                                </policy_container_ivcompatibility_init>
+                                <policy_container_ivcompatibility_empty
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="IV Compatibility Empty"
+                                    sling:resourceType="wcm/core/components/policy/policy"
+                                    components="[]"
+                                    columns="1"
+                                    layoutDisabled="false">
+                                    <jcr:content jcr:primaryType="nt:unstructured"
+                                                 jcr:mixinTypes="[cq:ReplicationStatus]"
+                                                 cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                                 cq:lastReplicatedBy="admin"
+                                                 cq:lastReplicationAction="Activate"/>
+                                </policy_container_ivcompatibility_empty>
+                                <policy_container_cem_api_root
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="CEM API Root Empty"
+                                    sling:resourceType="wcm/core/components/policy/policy"
+                                    components="[]"
+                                    columns="1"
+                                    layoutDisabled="false">
+                                    <jcr:content jcr:primaryType="nt:unstructured"
+                                                 jcr:mixinTypes="[cq:ReplicationStatus]"
+                                                 cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                                 cq:lastReplicatedBy="admin"
+                                                 cq:lastReplicationAction="Activate"/>
+                                </policy_container_cem_api_root>
+                                <policy_container_ivcompatibility_record_main
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="IV Compatibility Record Main"
+                                    sling:resourceType="wcm/core/components/policy/policy"
+                                    components="[/apps/contentauthoring/components/ivcompatibility/content/primary-drug]"
+                                    columns="1"
+                                    layoutDisabled="false">
+                                    <jcr:content jcr:primaryType="nt:unstructured"
+                                                 jcr:mixinTypes="[cq:ReplicationStatus]"
+                                                 cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                                 cq:lastReplicatedBy="admin"
+                                                 cq:lastReplicationAction="Activate"/>
+                                </policy_container_ivcompatibility_record_main>
+                                <policy_container_ivcompatibility_product_main
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="IV Compatibility Product Monograph Main"
+                                    sling:resourceType="wcm/core/components/policy/policy"
+                                    components="[/apps/contentauthoring/components/ivcompatibility/content/substance]"
+                                    columns="1"
+                                    layoutDisabled="false">
+                                    <jcr:content jcr:primaryType="nt:unstructured"
+                                                 jcr:mixinTypes="[cq:ReplicationStatus]"
+                                                 cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                                 cq:lastReplicatedBy="admin"
+                                                 cq:lastReplicationAction="Activate"/>
+                                </policy_container_ivcompatibility_product_main>
+                                <policy_container_citation_empty
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Citation Empty"
+                                    sling:resourceType="wcm/core/components/policy/policy"
+                                    components="[]"
+                                    columns="1"
+                                    layoutDisabled="false">
+                                    <jcr:content jcr:primaryType="nt:unstructured"
+                                                 jcr:mixinTypes="[cq:ReplicationStatus]"
+                                                 cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                                 cq:lastReplicatedBy="admin"
+                                                 cq:lastReplicationAction="Activate"/>
+                                </policy_container_citation_empty>
+                                <policy_container_citation_init
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Citation Init"
+                                    sling:resourceType="wcm/core/components/policy/policy"
+                                    components="[group:Content Authoring - Commons - Layout,group:Content Authoring - Commons,group:Citation - Administration]"
+                                    columns="1"
+                                    layoutDisabled="false">
+                                    <jcr:content jcr:primaryType="nt:unstructured"
+                                                 jcr:mixinTypes="[cq:ReplicationStatus]"
+                                                 cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                                 cq:lastReplicatedBy="admin"
+                                                 cq:lastReplicationAction="Activate"/>
+                                </policy_container_citation_init>
+                                <policy_container_citation_main
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Citation Main"
+                                    sling:resourceType="wcm/core/components/policy/policy"
+                                    components="[/apps/contentauthoring/components/citation/content/citation]"
+                                    columns="1"
+                                    layoutDisabled="false">
+                                    <jcr:content jcr:primaryType="nt:unstructured"
+                                                 jcr:mixinTypes="[cq:ReplicationStatus]"
+                                                 cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                                 cq:lastReplicatedBy="admin"
+                                                 cq:lastReplicationAction="Activate"/>
+                                </policy_container_citation_main>
+                            </container>
+                        </v1>
+                    </container>
+                </layout>
+                <structure jcr:primaryType="nt:unstructured">
+                    <page jcr:primaryType="nt:unstructured">
+                        <v1 jcr:primaryType="nt:unstructured">
+                            <page jcr:primaryType="nt:unstructured">
+                                <policy
+                                    jcr:description="Includes the required client libraries."
+                                    jcr:primaryType="nt:unstructured"
+                                    jcr:title="Generic Content Authoring Page"
+                                    sling:resourceType="wcm/core/components/policy/policy"
+                                    clientlibs="[contentauthoring.dependencies,contentauthoring.site]"
+                                    clientlibsJsHead="contentauthoring.dependencies">
+                                    <jcr:content jcr:primaryType="nt:unstructured"
+                                                 jcr:mixinTypes="[cq:ReplicationStatus]"
+                                                 cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                                 cq:lastReplicatedBy="admin"
+                                                 cq:lastReplicationAction="Activate"/>
+                                </policy>
+                            </page>
+                        </v1>
+                    </page>
+                </structure>
+            </commons>
+            <ivcompatibility jcr:primaryType="nt:unstructured">
+                <layout jcr:primaryType="nt:unstructured">
+                    <primary-drug-container jcr:primaryType="nt:unstructured">
+                        <policy_container_ivcompatibility_primary_drug
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="IV Compatibility Primary Drug"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[/apps/contentauthoring/components/ivcompatibility/content/concentration]"
+                            columns="1"
+                            layoutDisabled="false">
+                            <jcr:content jcr:primaryType="nt:unstructured"
+                                         jcr:mixinTypes="[cq:ReplicationStatus]"
+                                         cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                         cq:lastReplicatedBy="admin"
+                                         cq:lastReplicationAction="Activate"/>
+                        </policy_container_ivcompatibility_primary_drug>
+                    </primary-drug-container>
+                    <concentration-container jcr:primaryType="nt:unstructured">
+                        <policy_container_ivcompatibility_concentration
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="IV Compatibility Concentration"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[/apps/contentauthoring/components/ivcompatibility/content/compatibility]"
+                            columns="1"
+                            layoutDisabled="false">
+                            <jcr:content jcr:primaryType="nt:unstructured"
+                                         jcr:mixinTypes="[cq:ReplicationStatus]"
+                                         cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                         cq:lastReplicatedBy="admin"
+                                         cq:lastReplicationAction="Activate"/>
+                        </policy_container_ivcompatibility_concentration>
+                    </concentration-container>
+                    <compatibility-container jcr:primaryType="nt:unstructured">
+                        <policy_container_ivcompatibility_compatibility
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="IV Compatibility Compatible"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[/apps/contentauthoring/components/ivcompatibility/content/secondary-drug]"
+                            columns="1"
+                            layoutDisabled="false">
+                            <jcr:content jcr:primaryType="nt:unstructured"
+                                         jcr:mixinTypes="[cq:ReplicationStatus]"
+                                         cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                         cq:lastReplicatedBy="admin"
+                                         cq:lastReplicationAction="Activate"/>
+                        </policy_container_ivcompatibility_compatibility>
+                    </compatibility-container>
+                    <substance-container jcr:primaryType="nt:unstructured">
+                        <policy_container_ivcompatibility_substance
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="IV Compatibility Substance"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            components="[/apps/contentauthoring/components/ivcompatibility/content/formulation]"
+                            columns="1"
+                            layoutDisabled="false">
+                            <jcr:content jcr:primaryType="nt:unstructured"
+                                         jcr:mixinTypes="[cq:ReplicationStatus]"
+                                         cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                         cq:lastReplicatedBy="admin"
+                                         cq:lastReplicationAction="Activate"/>
+                        </policy_container_ivcompatibility_substance>
+                    </substance-container>
+                </layout>
+                <structure jcr:primaryType="nt:unstructured">
+                    <page jcr:primaryType="nt:unstructured">
+                        <policy
+                            jcr:description="Includes the required client libraries."
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="IV Compatibility Page"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            clientlibs="[contentauthoring.dependencies,contentauthoring.site]"
+                            clientlibsJsHead="contentauthoring.dependencies">
+                            <jcr:content jcr:primaryType="nt:unstructured"
+                                         jcr:mixinTypes="[cq:ReplicationStatus]"
+                                         cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                         cq:lastReplicatedBy="admin"
+                                         cq:lastReplicationAction="Activate"/>
+                        </policy>
+                    </page>
+                </structure>
+            </ivcompatibility>
+            <citation jcr:primaryType="nt:unstructured">
+                <structure jcr:primaryType="nt:unstructured">
+                    <page jcr:primaryType="nt:unstructured">
+                        <policy
+                            jcr:description="Includes the required client libraries."
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Citation Page"
+                            sling:resourceType="wcm/core/components/policy/policy"
+                            clientlibs="[contentauthoring.dependencies,contentauthoring.site]"
+                            clientlibsJsHead="contentauthoring.dependencies">
+                            <jcr:content jcr:primaryType="nt:unstructured"
+                                         jcr:mixinTypes="[cq:ReplicationStatus]"
+                                         cq:lastReplicated="{Date}2021-01-01T12:00:00.000+01:00"
+                                         cq:lastReplicatedBy="admin"
+                                         cq:lastReplicationAction="Activate"/>
+                        </policy>
+                    </page>
+                </structure>
+            </citation>
+        </components>
+    </contentauthoring>
+</jcr:root>

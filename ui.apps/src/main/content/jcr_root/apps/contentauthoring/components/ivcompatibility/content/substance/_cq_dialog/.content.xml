@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Substance"
+          extraClientlibs="[solutionSelectBoxCustomFilter,substanceSelectBoxValidation]"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <substance
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Substance"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <substance-type
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                granite:class="cq-dialog-dropdown-showhide"
+                                fieldLabel="Substance Type"
+                                emptyOption="{Boolean}true"
+                                required="{Boolean}true"
+                                name="./substanceType">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <drug
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Drug"
+                                        value="Drug"/>
+                                    <solution
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Solution"
+                                        value="Soln"/>
+                                    <both
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Both"
+                                        value="Drug-Soln"/>
+                                </items>
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    cq-dialog-dropdown-showhide-target=".substanceType-showhide-target"/>
+                            </substance-type>
+                            <formulation-type
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                granite:class="cq-dialog-dropdown-showhide"
+                                fieldLabel="Formulation Type"
+                                emptyOption="{Boolean}true"
+                                required="{Boolean}true"
+                                name="./formulationType">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <single-substance
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Single Substance"
+                                        value="Single-Substance"/>
+                                    <combination-substance
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Combination Substance"
+                                        value="Combination-Substance"/>
+                                    <grouping-name
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Grouping Name"
+                                        value="Grouping-Name"/>
+                                </items>
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    cq-dialog-dropdown-showhide-target=".formulationType-showhide-target"/>
+                            </formulation-type>
+                            <drug
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container"
+                                granite:class="substanceType-showhide-target">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <lexicon-substance-references-drug
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="contentauthoring/dialogfields/externalUiIntegration"
+                                        fieldLabel="Lexicon Substance References *"
+                                        required="{Boolean}false"
+                                        externalUrl="https://dev.wh-cem.dev.watson-health.ibm.com/lexiconapp/lexiconbrowser"
+                                        validation="drugLexiconSubstanceReferenceValidation"
+                                        name="./lexiconSubstanceDrugReferences"/>
+                                </items>
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    showhidetargetvalue="Drug"/>
+                            </drug>
+                            <solution
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container"
+                                granite:class="substanceType-showhide-target">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <lexicon-substance-references-solution
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                        granite:class="solution-selectbox-custom-filter"
+                                        fieldLabel="Lexicon Substance References *"
+                                        required="{Boolean}false"
+                                        multiple="{Boolean}true"
+                                        validation="solutionLexiconSubstanceReferenceValidation"
+                                        name="./lexiconSubstanceSolutionReferencePaths">
+                                        <datasource
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="/servlets/solutionlookupdatasource"/>
+                                    </lexicon-substance-references-solution>
+                                </items>
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    showhidetargetvalue="Soln"/>
+                            </solution>
+                            <both
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container"
+                                granite:class="substanceType-showhide-target">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <lexicon-substance-reference-source
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                        granite:class="cq-dialog-dropdown-showhide"
+                                        fieldLabel="Lexicon Substance Reference Source"
+                                        required="{Boolean}false"
+                                        name="./lexiconSubstanceReferenceSource">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <drug
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Drug"
+                                                value="Drug"/>
+                                            <solution
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Solution"
+                                                value="Soln"/>
+                                        </items>
+                                        <granite:data
+                                            jcr:primaryType="nt:unstructured"
+                                            cq-dialog-dropdown-showhide-target=".substanceReferenceSource-showhide-target"/>
+                                    </lexicon-substance-reference-source>
+                                    <drug
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                                        granite:class="substanceReferenceSource-showhide-target">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <lexicon-substance-references-drug
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="contentauthoring/dialogfields/externalUiIntegration"
+                                                fieldLabel="Lexicon Substance References *"
+                                                required="{Boolean}false"
+                                                validation="bothDrugLexiconSubstanceReferenceValidation"
+                                                externalUrl="https://dev.wh-cem.dev.watson-health.ibm.com/lexiconapp/lexiconbrowser"
+                                                name="./lexiconSubstanceBothDrugReferences"/>
+                                        </items>
+                                        <granite:data
+                                            jcr:primaryType="nt:unstructured"
+                                            showhidetargetvalue="Drug"/>
+                                    </drug>
+                                    <solution
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                                        granite:class="substanceReferenceSource-showhide-target">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <lexicon-substance-references-solution
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                granite:class="solution-selectbox-custom-filter"
+                                                fieldLabel="Lexicon Substance References *"
+                                                required="{Boolean}false"
+                                                multiple="{Boolean}true"
+                                                validation="bothSolutionLexiconSubstanceReferenceValidation"
+                                                name="./lexiconSubstanceBothSolutionReferencePaths">
+                                                <datasource
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="/servlets/solutionlookupdatasource"/>
+                                            </lexicon-substance-references-solution>
+                                        </items>
+                                        <granite:data
+                                            jcr:primaryType="nt:unstructured"
+                                            showhidetargetvalue="Soln"/>
+                                    </solution>
+                                </items>
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    showhidetargetvalue="Drug-Soln"/>
+                            </both>
+
+                            <alternative-names
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container"
+                                granite:class="formulationType-showhide-target">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <alternative-names
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                        required="{Boolean}false"
+                                        fieldLabel="Alternative Names">
+                                        <field
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            name="./alternativeNames"/>
+                                    </alternative-names>
+                                </items>
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    showhidetargetvalue="Combination-Substance"/>
+                            </alternative-names>
+
+                            <substance-trade-names
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                required="{Boolean}false"
+                                fieldLabel="Substance Tradenames">
+                                <field
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                    name="./substanceTradeNames"/>
+                            </substance-trade-names>
+                            <reconstitution
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                required="{Boolean}false"
+                                fieldLabel="Reconstitution"
+                                name="./reconstitution">
+                            </reconstitution>
+                            <reconstitution-references
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                fieldLabel="Reconstitution Reference">
+                                <field
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                    rootPath="/content/mdx-cem/citation"
+                                    pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                                    name="./reconstitutionReferences"/>
+                            </reconstitution-references>
+                        </items>
+                    </substance>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Stability Details"
+          margin="{Boolean}true"
+          sling:resourceType="granite/ui/components/coral/foundation/container">
+    <items jcr:primaryType="nt:unstructured">
+        <add-stability-details
+            jcr:primaryType="nt:unstructured"
+            granite:class="cq-dialog-checkbox-showhide"
+            sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+            name="./addStabilityDetails"
+            text="Add Stability Details"
+            value="true">
+            <granite:data
+                jcr:primaryType="nt:unstructured"
+                cq-dialog-checkbox-showhide-target=".stabilityDetails-showhide-target"/>
+        </add-stability-details>
+        <stability-details
+            jcr:primaryType="nt:unstructured"
+            granite:class="stabilityDetails-showhide-target hide"
+            sling:resourceType="granite/ui/components/coral/foundation/container">
+            <items jcr:primaryType="nt:unstructured">
+                <stability
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="Stability"
+                    name="./stability">
+                </stability>
+                <stability-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="Stability Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./stabilityReferences"/>
+                </stability-references>
+                <stability-max
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="Stability Max"
+                    name="./stabilityMax"/>
+                <stabilityMax-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="Stability Max Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./stabilityMaxReferences"/>
+                </stabilityMax-references>
+                <sorption
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="Sorption"
+                    name="./sorption"/>
+                <sorption-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="Sorption Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./sorptionReferences"/>
+                </sorption-references>
+            </items>
+        </stability-details>
+    </items>
+</jcr:root>

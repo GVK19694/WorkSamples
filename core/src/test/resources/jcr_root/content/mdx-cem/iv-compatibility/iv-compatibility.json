@@ -1,0 +1,29 @@
+{
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Wed Jul 07 2021 10:26:00 GMT+0200",
+    "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:mixinTypes": [
+            "mix:versionable"
+        ],
+        "jcr:createdBy": "admin",
+        "jcr:title": "IV Compatibility",
+        "cq:lastReplicationAction": "Activate",
+        "jcr:versionHistory": "be679123-c43e-49ab-832f-b88063e48f74",
+        "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-root",
+        "cq:lastReplicatedBy": "admin",
+        "jcr:predecessors": [
+            "55ddd3c4-4b17-4c85-a4d2-e62be0ed0781"
+        ],
+        "jcr:created": "Wed Jul 07 2021 10:26:00 GMT+0200",
+        "cq:lastReplicated": "Thu Jul 29 2021 10:42:12 GMT+0200",
+        "jcr:baseVersion": "55ddd3c4-4b17-4c85-a4d2-e62be0ed0781",
+        "jcr:isCheckedOut": true,
+        "jcr:uuid": "e74155c3-8faf-4710-b0bf-45756247c51f",
+        "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+        "cq:allowedTemplates": [
+            "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record-root"
+        ]
+    }
+}

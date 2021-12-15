@@ -1,0 +1,28 @@
+<div data-sly-use.model="com.ibm.watsonhealth.micromedex.core.models.ivcompatibility.Compatibility" class="cmp-compatibility">
+
+    <sly data-sly-use.validationTemplate="/apps/contentauthoring/components/commons/templates/validation/validation.html"/>
+    <sly data-sly-use.solutionTemplate="/apps/contentauthoring/components/ivcompatibility/templates/solution/solution.html"/>
+
+    <sly data-sly-call="${validationTemplate.validation @ headline='Compatibility', headlineLevel='4', model=model, resourcepath=resource.path, pagevalidation=false}"/>
+
+    <ul>
+        <li><span class="property-label">Compatible:</span> ${model.compatibleEnum.displayName}</li>
+        <li><span class="property-label">Combination Type:</span> ${model.combinationTypeEnum.displayName}</li>
+        <li data-sly-test.physicalCompatibility="${model.physicalCompatibility}"><span class="property-label">Physical Compatibility:</span>
+            ${physicalCompatibility}
+        </li>
+        <li data-sly-test.chemicalStability="${model.chemicalStability}"><span class="property-label">Chemical Stability:</span> ${chemicalStability}</li>
+        <li data-sly-test.recordNotes="${model.recordNotes}"><span class="property-label">Record Notes:</span> ${recordNotes}</li>
+        <li data-sly-test="${model.solutionEnabled}">
+            <span class="property-label">Solution</span>
+            <sly data-sly-call="${solutionTemplate.solution @ model=model}"/>
+        </li>
+    </ul>
+
+    <div class="cmp-compatibility__subcomponents"
+         data-sly-resource="${'container' @resourceType = 'contentauthoring/components/ivcompatibility/layout/compatibility-container'}"></div>
+
+    <script>
+        revalidate();
+    </script>
+</div>

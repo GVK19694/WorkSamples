@@ -1,0 +1,2169 @@
+{
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Mon Aug 02 2021 14:53:01 GMT+0200",
+    "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:mixinTypes": [
+            "mix:versionable"
+        ],
+        "jcr:createdBy": "admin",
+        "jcr:title": "Records",
+        "cq:lastReplicationAction": "Activate",
+        "jcr:versionHistory": "be24e38e-a294-4654-9bd2-fbba6df1d037",
+        "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record-root",
+        "cq:lastReplicatedBy": "admin",
+        "jcr:predecessors": [
+            "dbc729d4-41e3-4b2b-8e0f-3f1d4bba5231"
+        ],
+        "jcr:created": "Mon Aug 02 2021 14:53:01 GMT+0200",
+        "cq:lastReplicated": "Thu Aug 05 2021 12:01:16 GMT+0200",
+        "jcr:baseVersion": "dbc729d4-41e3-4b2b-8e0f-3f1d4bba5231",
+        "jcr:isCheckedOut": true,
+        "jcr:uuid": "79090833-32b5-4574-a760-09505738a23c",
+        "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+        "cq:allowedTemplates": [
+            "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record-structure",
+            "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record"
+        ],
+        "root": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container"
+        }
+    },
+    "unit-tests": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Thu Aug 26 2021 14:14:39 GMT+0200",
+        "jcr:content": {
+            "jcr:primaryType": "cq:PageContent",
+            "jcr:createdBy": "admin",
+            "jcr:title": "Unit Tests",
+            "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record-structure",
+            "jcr:created": "Thu Aug 26 2021 14:14:39 GMT+0200",
+            "cq:lastModified": "Thu Aug 26 2021 14:14:39 GMT+0200",
+            "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+            "cq:allowedTemplates": [
+                "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record-structure",
+                "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record"
+            ],
+            "cq:lastModifiedBy": "admin",
+            "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container"
+            }
+        },
+        "admixture": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 09:32:22 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:createdBy": "admin",
+                "jcr:title": "Admixture",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:created": "Thu Aug 26 2021 09:32:22 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 13:48:26 GMT+0200",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000000,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Admix",
+                                            "solutionEnabled": "true",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 13:48:26 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000000,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-2",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:13:09 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000001,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "new",
+                                                    "secondaryDrugType": "Combination-Substance",
+                                                    "secondaryDrugs": [
+                                                        "drug1",
+                                                        "drug2"
+                                                    ],
+                                                    "alternativeNames": [
+                                                        "altdrug1",
+                                                        "",
+                                                        "altdrug2"
+                                                    ],
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 09:51:24 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "monograph",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 10:12:57 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        },
+        "y-site_syringe": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 09:43:05 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Y-Site / Syringe",
+                "jcr:versionHistory": "2e082b8e-8247-47b6-baeb-a75a888a4c5d",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:predecessors": [
+                    "e58e636f-d485-4471-ba6c-23d0ca484dd9"
+                ],
+                "jcr:created": "Thu Aug 26 2021 09:43:05 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 13:49:12 GMT+0200",
+                "jcr:baseVersion": "e58e636f-d485-4471-ba6c-23d0ca484dd9",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "8fe6a526-0e91-4c58-a6f2-1eca32e7ba5d",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugType": "Combination-Substance",
+                            "primaryDrugs": [
+                                "Fat Emulsion",
+                                "Fish Oil",
+                                "Soybean Oil"
+                            ],
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000001,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Ysite",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 13:48:57 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000002,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:08 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000003,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "new",
+                                                    "secondaryDrugType": "Combination-Substance",
+                                                    "secondaryDrugs": [
+                                                        "Fat Emulsion",
+                                                        "Fish Oil",
+                                                        "Soybean Oil"
+                                                    ],
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:22 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        },
+                                        "compatibility_copy": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000002,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Syr",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 13:49:12 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000004,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:33 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000005,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:43 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionEnabled": "true",
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "new",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 10:11:51 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        },
+        "drug-solution": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 14:14:11 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:createdBy": "admin",
+                "jcr:title": "Drug-Solution",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:created": "Thu Aug 26 2021 14:14:11 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 14:17:20 GMT+0200",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000003,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Soln",
+                                            "solutionEnabled": "true",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 14:16:48 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "monograph",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 14:17:20 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        },
+        "admixture-not-valid-1": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 09:46:50 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Admixture Not Valid 1",
+                "jcr:versionHistory": "69b6c468-030f-4a5b-91a7-84fb763f8130",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:predecessors": [
+                    "0564f8ba-7097-42f0-ab95-79aaa91e94ab"
+                ],
+                "jcr:created": "Thu Aug 26 2021 09:46:50 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 13:49:36 GMT+0200",
+                "jcr:baseVersion": "0564f8ba-7097-42f0-ab95-79aaa91e94ab",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "7c661429-7753-4746-8093-674b6f3d31ea",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000004,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Admix",
+                                            "solutionEnabled": "true",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 13:49:36 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000006,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:13:55 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000007,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 09:17:06 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionEnabled": "true",
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "monograph",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 10:13:45 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        },
+        "admixture-not-valid-2": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 09:48:26 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Admixture Not Valid 2",
+                "jcr:versionHistory": "7dc0ec40-afd5-46a8-99dc-4975c375f60d",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:predecessors": [
+                    "659e24f2-fdfc-4451-bc5e-e3cde725254a"
+                ],
+                "jcr:created": "Thu Aug 26 2021 09:48:26 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 14:07:26 GMT+0200",
+                "jcr:baseVersion": "659e24f2-fdfc-4451-bc5e-e3cde725254a",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "c47aea0a-53bc-429b-a95a-a0a19cdecd90",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000005,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Admix",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 14:07:11 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000008,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 14:07:19 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000009,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 14:07:26 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "name": "sec2 solution name"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "monograph",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 10:14:15 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        },
+        "admixture-not-valid-3": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 14:07:43 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Admixture Not Valid 3",
+                "jcr:versionHistory": "20fa15d8-14bd-4461-b428-3713828a924d",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:predecessors": [
+                    "4ceb2bd1-47ed-4488-8d17-05520bfb41d2"
+                ],
+                "jcr:created": "Thu Aug 26 2021 14:07:43 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 14:08:18 GMT+0200",
+                "jcr:baseVersion": "4ceb2bd1-47ed-4488-8d17-05520bfb41d2",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "8abf6a86-11d2-43c3-9949-ff359cf11a81",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000006,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Admix",
+                                            "solutionEnabled": "true",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 14:08:11 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000010,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 14:07:19 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000011,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 14:08:18 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "monograph",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 10:14:15 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        },
+        "y-site_syringe-not-valid-1": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 14:09:00 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Y-Site / Syringe Not Valid 1",
+                "jcr:versionHistory": "3e00bfc8-abe8-4cf7-baed-dfba2c60ac93",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:predecessors": [
+                    "0832bdc7-f7eb-44e5-8486-5dc5a85cd4a2"
+                ],
+                "jcr:created": "Thu Aug 26 2021 14:09:00 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 14:09:38 GMT+0200",
+                "jcr:baseVersion": "0832bdc7-f7eb-44e5-8486-5dc5a85cd4a2",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "abf7fe71-d7f4-4996-ae3d-1ff81c778bc3",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000007,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Ysite",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 13:48:57 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000012,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:08 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000013,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:22 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        },
+                                        "compatibility_copy": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000008,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Syr",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 13:49:12 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000014,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:33 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000015,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:43 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "monograph",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 14:09:38 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        },
+        "y-site_syringe-not-valid-2": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 14:09:52 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Y-Site / Syringe Not Valid 2",
+                "jcr:versionHistory": "78508e57-8f5a-4c21-8aeb-7643c2af76de",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:predecessors": [
+                    "cc700f84-0f8d-4194-af40-d3b5c0e6935b"
+                ],
+                "jcr:created": "Thu Aug 26 2021 14:09:52 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 14:10:42 GMT+0200",
+                "jcr:baseVersion": "cc700f84-0f8d-4194-af40-d3b5c0e6935b",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "fffdfdf6-a941-4973-a0f3-a3fa342d3420",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000009,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Ysite",
+                                            "solutionEnabled": "true",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 14:10:42 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000016,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:08 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000017,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:22 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        },
+                                        "compatibility_copy": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000010,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Syr",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 13:49:12 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "recordId": 1000018,
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:33 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000019,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:43 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionEnabled": "true",
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "monograph",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 14:10:34 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        },
+        "y-site_syringe-not-valid-3": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 14:10:55 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Y-Site / Syringe Not Valid 3",
+                "jcr:versionHistory": "bb8b3d6f-3114-42eb-9566-5d184d4db5ba",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:predecessors": [
+                    "bd32ab7c-ee5a-4335-b2b2-5c37f0e04a1f"
+                ],
+                "jcr:created": "Thu Aug 26 2021 14:10:55 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 14:11:31 GMT+0200",
+                "jcr:baseVersion": "bd32ab7c-ee5a-4335-b2b2-5c37f0e04a1f",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "5139c179-8f1f-41ce-bb83-fcd537c9f785",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000011,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Ysite",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 14:11:20 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000020,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:08 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000021,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 14:11:31 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        },
+                                        "compatibility_copy": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000012,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Syr",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 13:49:12 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000022,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:33 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000023,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:43 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionEnabled": "true",
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "monograph",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 14:10:34 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        },
+        "y-site_syringe-not-valid-4": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 14:11:56 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Y-Site / Syringe Not Valid 4",
+                "jcr:versionHistory": "a3e02769-59e2-421e-a1a9-bca2411f7f5e",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:predecessors": [
+                    "beae59b6-cd4d-4569-bc8e-a8decb49a687"
+                ],
+                "jcr:created": "Thu Aug 26 2021 14:11:56 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 14:12:41 GMT+0200",
+                "jcr:baseVersion": "beae59b6-cd4d-4569-bc8e-a8decb49a687",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "889c53af-871a-4f5a-b8fa-f0138287f137",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000013,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Ysite",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 14:12:41 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000024,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:08 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000025,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:22 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        },
+                                        "compatibility_copy": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000014,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Syr",
+                                            "solutionEnabled": "true",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 14:12:33 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000026,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:33 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000027,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:43 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionEnabled": "true",
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "monograph",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 14:10:34 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        },
+        "y-site_syringe-not-valid-5": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 14:12:56 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Y-Site / Syringe Not Valid 5",
+                "jcr:versionHistory": "b68aa96e-18ad-43e1-be16-da6c86b25370",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:predecessors": [
+                    "b5702e1d-8275-4796-8162-1676734b1b7b"
+                ],
+                "jcr:created": "Thu Aug 26 2021 14:12:56 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 14:13:41 GMT+0200",
+                "jcr:baseVersion": "b5702e1d-8275-4796-8162-1676734b1b7b",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "451a52f9-8928-4170-ba8a-ffb0079ded48",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000015,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Ysite",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 14:11:20 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000028,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:08 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000029,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 14:13:41 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        },
+                                        "compatibility_copy": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000016,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Syr",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 13:49:12 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000030,
+                                                    "secondaryDrugConcentration": "10 ml sec1",
+                                                    "manufacturer": "sec1 manufactureer",
+                                                    "storage": "sec1 storage",
+                                                    "solutionTradename": "sec1 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "method": "sec1 method",
+                                                    "container": "sec1 container",
+                                                    "solutionEnabled": "true",
+                                                    "solutionVolume": "sec1 volume",
+                                                    "solutionManufacturer": "sec1 sol manufacturer",
+                                                    "tradeName": "sec1 trade name",
+                                                    "containerfield": "sec1 container",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 10:12:33 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                                    "studyPeriod": "sec1 study period"
+                                                },
+                                                "secondary_drug_copy": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "recordId": 1000031,
+                                                    "secondaryDrugConcentration": "10 ml sec2",
+                                                    "manufacturer": "sec2 manufactureer",
+                                                    "solutionTradename": "sec2 tradename",
+                                                    "secondaryDrugSource": "monograph",
+                                                    "secondaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "solutionVolume": "sec2 volume",
+                                                    "solutionManufacturer": "sec2 sol manufacturer",
+                                                    "tradeName": "sec2 trade name",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 14:13:33 GMT+0200",
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug",
+                                                    "solutionPath": "/etc/import-data/solution-product-lookup/01390"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionEnabled": "true",
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "monograph",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 14:10:34 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        },
+        "drug-solution-not-valid-1": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 14:17:38 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Drug-Solution Not Valid 1",
+                "jcr:versionHistory": "47546e5e-3521-4454-92eb-42798755078c",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:predecessors": [
+                    "cfbdc9c6-c67a-4b1a-9684-079ffbf06f22"
+                ],
+                "jcr:created": "Thu Aug 26 2021 14:17:38 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 14:18:09 GMT+0200",
+                "jcr:baseVersion": "cfbdc9c6-c67a-4b1a-9684-079ffbf06f22",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "c650dbbb-a3d2-478e-9241-4fec398d5ea9",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000017,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Soln",
+                                            "solutionEnabled": "true",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 14:16:48 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionEnabled": "true",
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "monograph",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 14:18:09 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        },
+        "drug-solution-not-valid-2": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 14:18:27 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Drug-Solution Not Valid 2",
+                "jcr:versionHistory": "66d30188-42c9-477a-942b-b161b0b68f81",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:predecessors": [
+                    "db3a14d3-77ea-4b90-bcf7-37937f18b303"
+                ],
+                "jcr:created": "Thu Aug 26 2021 14:18:27 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 14:19:14 GMT+0200",
+                "jcr:baseVersion": "db3a14d3-77ea-4b90-bcf7-37937f18b303",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "2e29c5cb-1fe3-4895-816d-1933fc2eef7f",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000018,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Soln",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 14:19:14 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "monograph",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 14:18:52 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        },
+        "drug-solution-not-valid-3": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Aug 26 2021 14:19:28 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Drug-Solution Not Valid 3",
+                "jcr:versionHistory": "e465d799-3f92-434d-9988-747e3cc10854",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-record",
+                "jcr:predecessors": [
+                    "9bebce96-f2f2-4b48-a987-d44f6655b4a7"
+                ],
+                "jcr:created": "Thu Aug 26 2021 14:19:28 GMT+0200",
+                "cq:lastModified": "Thu Aug 26 2021 14:20:06 GMT+0200",
+                "jcr:baseVersion": "9bebce96-f2f2-4b48-a987-d44f6655b4a7",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "97005b19-1d6a-4d18-bd51-474f86c884d7",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "primary_drug": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "manufacturer": "prim manufacturer",
+                            "storage": "prim storage",
+                            "solutionTradename": "prim sol tradename",
+                            "jcr:lastModifiedBy": "admin",
+                            "method": "prim method",
+                            "primaryDrugPath": "/content/mdx-cem/iv-compatibility/product-monographs/unit-tests/product-1",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/primary-drug-container",
+                                "concentration": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "studyNotes": "prim study notes",
+                                    "concentration": "10ml",
+                                    "jcr:lastModified": "Thu Aug 26 2021 09:03:51 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/concentration",
+                                    "container": {
+                                        "jcr:primaryType": "nt:unstructured",
+                                        "layout": "responsiveGrid",
+                                        "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/concentration-container",
+                                        "compatibility": {
+                                            "jcr:primaryType": "nt:unstructured",
+                                            "recordId": 2000019,
+                                            "solutionTradename": "solution compatibility tradename",
+                                            "chemicalStability": "chem stab",
+                                            "jcr:lastModifiedBy": "admin",
+                                            "compatible": "C",
+                                            "combinationType": "Soln",
+                                            "solutionEnabled": "true",
+                                            "solutionVolume": "solution compatibility volume",
+                                            "solutionManufacturer": "solution compatibility manufacturer",
+                                            "jcr:lastModified": "Thu Aug 26 2021 14:19:56 GMT+0200",
+                                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/compatibility",
+                                            "recordNotes": "record notes",
+                                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                                            "physicalCompatibility": "phys comp",
+                                            "container": {
+                                                "jcr:primaryType": "nt:unstructured",
+                                                "layout": "responsiveGrid",
+                                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/compatibility-container",
+                                                "secondary_drug": {
+                                                    "jcr:primaryType": "nt:unstructured",
+                                                    "jcr:createdBy": "admin",
+                                                    "jcr:lastModifiedBy": "admin",
+                                                    "jcr:created": "Thu Aug 26 2021 14:20:06 GMT+0200",
+                                                    "jcr:lastModified": "Thu Aug 26 2021 14:20:06 GMT+0200",
+                                                    "recordId": 1000032,
+                                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/secondary-drug"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "solutionVolume": "prim solution volume",
+                            "solutionManufacturer": "prim sol manufacturer",
+                            "tradeName": "prim trade name",
+                            "citationPath": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "primaryDrugSource": "monograph",
+                            "containerfield": "prim container",
+                            "jcr:lastModified": "Thu Aug 26 2021 14:18:52 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/primary-drug",
+                            "solutionPath": "/etc/import-data/solution-product-lookup/01390",
+                            "studyPeriod": "prim study period"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

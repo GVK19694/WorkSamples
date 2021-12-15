@@ -1,0 +1,88 @@
+{
+    "136499": {
+        "jcr:primaryType": "nt:unstructured",
+        "gfcCode": 136499,
+        "form": "EMU",
+        "type": "gfc",
+        "roaCode": "IV",
+        "strength": "20%",
+        "63323-0820-00": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "SMOFLIPID",
+            "type": "product",
+            "productCategory": "Rx-only/Trade or Brand Name",
+            "ndcCode": "63323-0820-00",
+            "productName-lowercase": "smoflipid"
+        },
+        "63323-0820-01": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "SMOFLIPID",
+            "type": "product",
+            "productCategory": "Rx-only/Trade or Brand Name",
+            "ndcCode": "63323-0820-01",
+            "productName-lowercase": "smoflipid"
+        },
+        "63323-0820-03": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "SMOFLIPID",
+            "type": "product",
+            "productCategory": "Rx-only/Trade or Brand Name",
+            "ndcCode": "63323-0820-03",
+            "productName-lowercase": "smoflipid"
+        },
+        "63323-0820-04": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "SMOFLIPID",
+            "type": "product",
+            "productCategory": "Rx-only/Trade or Brand Name",
+            "ndcCode": "63323-0820-04",
+            "productName-lowercase": "smoflipid"
+        },
+        "63323-0820-05": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "SMOFLIPID",
+            "type": "product",
+            "productCategory": "Rx-only/Trade or Brand Name",
+            "ndcCode": "63323-0820-05",
+            "productName-lowercase": "smoflipid"
+        },
+        "63323-0820-10": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "SMOFLIPID",
+            "type": "product",
+            "productCategory": "Rx-only/Trade or Brand Name",
+            "ndcCode": "63323-0820-10",
+            "productName-lowercase": "smoflipid"
+        },
+        "63323-0820-50": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "SMOFLIPID",
+            "type": "product",
+            "productCategory": "Rx-only/Trade or Brand Name",
+            "ndcCode": "63323-0820-50",
+            "productName-lowercase": "smoflipid"
+        },
+        "63323-0820-74": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "SMOFLIPID",
+            "type": "product",
+            "productCategory": "Rx-only/Trade or Brand Name",
+            "ndcCode": "63323-0820-74",
+            "productName-lowercase": "smoflipid"
+        }
+    },
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:mixinTypes": [
+        "cq:ReplicationStatus"
+    ],
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy": "preReplicationServiceUser",
+    "jcr:created": "Thu Sep 16 2021 08:21:51 GMT+0200",
+    "cq:lastReplicated": "Wed Sep 22 2021 09:36:14 GMT+0200",
+    "gcrCode": 933222,
+    "modified-counter": 14,
+    "name": "Fat Emulsion/Fish Oil/Soybean Oil",
+    "type": "gcr",
+    "jcr:lastModified": "Wed Sep 22 2021 09:17:01 GMT+0200",
+    "name-lowercase": "fat emulsion/fish oil/soybean oil"
+}

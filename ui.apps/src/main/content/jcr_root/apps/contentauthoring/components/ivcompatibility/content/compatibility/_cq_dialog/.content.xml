@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Compatibility"
+          extraClientlibs="[solutionSelectBoxCustomFilter,solutionPathValidation]"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <compatibility
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Compatibility"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <columns
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                                margin="{Boolean}true">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <column
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <compatible
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                fieldLabel="Compatible"
+                                                emptyOption="{Boolean}true"
+                                                required="{Boolean}true"
+                                                name="./compatible">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <compatible
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Compatible"
+                                                        value="C"/>
+                                                    <incompatible
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Incompatible"
+                                                        value="I"/>
+                                                    <uncertain
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Uncertain"
+                                                        value="U"/>
+                                                </items>
+                                            </compatible>
+                                            <combination-type
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                fieldLabel="Combination Type"
+                                                emptyOption="{Boolean}true"
+                                                required="{Boolean}true"
+                                                name="./combinationType">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <drug-solution
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Drug- Solution"
+                                                        value="Soln"/>
+                                                    <y-site
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Y-Site"
+                                                        value="Ysite"/>
+                                                    <admixture
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Admixture"
+                                                        value="Admix"/>
+                                                    <syringe
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Syringe"
+                                                        value="Syr"/>
+                                                </items>
+                                            </combination-type>
+                                            <physical-compatibility
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                fieldLabel="Physical Compatibility"
+                                                required="{Boolean}false"
+                                                name="./physicalCompatibility"/>
+                                            <chemical-stability
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                required="{Boolean}false"
+                                                fieldLabel="Chemical Stability"
+                                                name="./chemicalStability"/>
+                                            <record-notes
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                                required="{Boolean}false"
+                                                fieldLabel="Record Notes"
+                                                name="./recordNotes"/>
+                                        </items>
+                                    </column>
+                                </items>
+                            </columns>
+                        </items>
+                    </compatibility>
+                    <solution
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/include"
+                        path="contentauthoring/components/ivcompatibility/content/compatibility/dialogTabs/solution"/>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

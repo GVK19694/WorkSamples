@@ -1,0 +1,11 @@
+<template data-sly-template.solution="${@ model}">
+    <ul>
+        <li data-sly-test.solutionName="${model.solutionName}"><span class="property-label">Name:</span> ${solutionName}</li>
+        <li data-sly-test.solutionManufacturer="${model.solutionManufacturer}"><span class="property-label">Manufacturer:</span>
+            ${solutionManufacturer}
+        </li>
+        <li data-sly-test.solutionTradename="${model.solutionTradename}"><span class="property-label">Tradename:</span> ${solutionTradename}
+        </li>
+        <li data-sly-test.solutionVolume="${model.solutionVolume}"><span class="property-label">Volume and Units:</span> ${solutionVolume}</li>
+    </ul>
+</template>

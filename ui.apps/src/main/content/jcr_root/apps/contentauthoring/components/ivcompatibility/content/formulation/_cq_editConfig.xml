@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          jcr:primaryType="cq:EditConfig"
+          dialogLayout="fullscreen">
+    <cq:listeners
+        jcr:primaryType="cq:EditListenersConfig"
+        afterdelete="function(definition) {&#xa;&#x9;Granite.author.editables[1].refresh(); // reload second component on page because the first one is the pagevalidation component which can not be requested&#xa;}"
+        afteredit="REFRESH_SELF"
+        afterinsert="REFRESH_SELF"
+        aftermove="REFRESH_SELF"/>
+</jcr:root>

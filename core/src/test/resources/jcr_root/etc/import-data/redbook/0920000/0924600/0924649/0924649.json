@@ -1,0 +1,266 @@
+{
+    "112897": {
+        "jcr:primaryType": "nt:unstructured",
+        "gfcCode": 112897,
+        "form": "SOL",
+        "type": "gfc",
+        "roaCode": "IV",
+        "00074-7113-09": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEX/LACT. RINGERS/POTASSIUM CHL",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00074-7113-09",
+            "productName-lowercase": "dex/lact. ringers/potassium chl"
+        },
+        "00338-0815-04": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "POTASSIUM CHLORIDE SOLUTION",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00338-0815-04",
+            "productName-lowercase": "potassium chloride solution"
+        },
+        "00409-7113-09": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE/LACTATED RINGERS/POTASSIUM CHLORIDE",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00409-7113-09",
+            "productName-lowercase": "dextrose/lactated ringers/potassium chloride"
+        }
+    },
+    "112907": {
+        "jcr:primaryType": "nt:unstructured",
+        "gfcCode": 112907,
+        "form": "SOL",
+        "type": "gfc",
+        "roaCode": "IV",
+        "00074-7111-09": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEX/LACT. RINGERS/POTASSIUM CHL",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00074-7111-09",
+            "productName-lowercase": "dex/lact. ringers/potassium chl"
+        },
+        "00338-0811-04": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "POTASSIUM CHL/LACTATED RINGERS/DEXTROSE",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00338-0811-04",
+            "productName-lowercase": "potassium chl/lactated ringers/dextrose"
+        },
+        "00409-7111-09": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEX/LACT. RINGERS/POTASSIUM CHL",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00409-7111-09",
+            "productName-lowercase": "dex/lact. ringers/potassium chl"
+        },
+        "00990-7111-09": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEX/LACT. RINGERS/POTASSIUM CHL",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00990-7111-09",
+            "productName-lowercase": "dex/lact. ringers/potassium chl"
+        }
+    },
+    "112912": {
+        "jcr:primaryType": "nt:unstructured",
+        "gfcCode": 112912,
+        "form": "SOL",
+        "type": "gfc",
+        "roaCode": "IV",
+        "00074-7929-03": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE 5% IN RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00074-7929-03",
+            "productName-lowercase": "dextrose 5% in ringers"
+        },
+        "00074-7929-09": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE 5% IN RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00074-7929-09",
+            "productName-lowercase": "dextrose 5% in ringers"
+        },
+        "00264-3510-55": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE 5%/LACTATED RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00264-3510-55",
+            "productName-lowercase": "dextrose 5%/lactated ringers"
+        },
+        "00264-3511-55": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE 5%/LACTATED RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00264-3511-55",
+            "productName-lowercase": "dextrose 5%/lactated ringers"
+        },
+        "00264-7751-00": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE 5%/LACTATED RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00264-7751-00",
+            "productName-lowercase": "dextrose 5%/lactated ringers"
+        },
+        "00264-7751-10": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE 5%/LACTATED RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00264-7751-10",
+            "productName-lowercase": "dextrose 5%/lactated ringers"
+        },
+        "00264-7751-20": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE 5%/LACTATED RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00264-7751-20",
+            "productName-lowercase": "dextrose 5%/lactated ringers"
+        },
+        "00338-0125-03": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "LACTATED RINGER'S AND 5% DEXTROSE",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00338-0125-03",
+            "productName-lowercase": "lactated ringer's and 5% dextrose"
+        },
+        "00338-0125-04": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "LACTATED RINGER'S AND 5% DEXTROSE",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00338-0125-04",
+            "productName-lowercase": "lactated ringer's and 5% dextrose"
+        },
+        "00338-6306-04": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "LACTATED RINGER'S AND DEXTROSE",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00338-6306-04",
+            "productName-lowercase": "lactated ringer's and dextrose"
+        },
+        "00409-7929-03": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE 5% IN RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00409-7929-03",
+            "productName-lowercase": "dextrose 5% in ringers"
+        },
+        "00409-7929-09": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE 5% IN RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00409-7929-09",
+            "productName-lowercase": "dextrose 5% in ringers"
+        },
+        "00990-7929-03": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "LACTATED RINGER'S AND 5% DEXTROSE",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00990-7929-03",
+            "productName-lowercase": "lactated ringer's and 5% dextrose"
+        },
+        "00990-7929-09": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "LACTATED RINGER'S AND 5% DEXTROSE",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00990-7929-09",
+            "productName-lowercase": "lactated ringer's and 5% dextrose"
+        }
+    },
+    "112914": {
+        "jcr:primaryType": "nt:unstructured",
+        "gfcCode": 112914,
+        "form": "SOL",
+        "type": "gfc",
+        "roaCode": "IV",
+        "00074-1521-05": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE 2.5% IN RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00074-1521-05",
+            "productName-lowercase": "dextrose 2.5% in ringers"
+        },
+        "00264-7759-20": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE 2.5%/LACTATED RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00264-7759-20",
+            "productName-lowercase": "dextrose 2.5%/lactated ringers"
+        },
+        "00338-0120-03": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE 2.5% IN RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00338-0120-03",
+            "productName-lowercase": "dextrose 2.5% in ringers"
+        }
+    },
+    "112936": {
+        "jcr:primaryType": "nt:unstructured",
+        "gfcCode": 112936,
+        "form": "TAB",
+        "type": "gfc",
+        "roaCode": "PO"
+    },
+    "114451": {
+        "jcr:primaryType": "nt:unstructured",
+        "gfcCode": 114451,
+        "form": "SOL",
+        "type": "gfc",
+        "roaCode": "IV",
+        "00264-1751-00": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE IN RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00264-1751-00",
+            "productName-lowercase": "dextrose in ringers"
+        },
+        "00264-1751-10": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "DEXTROSE IN RINGERS",
+            "type": "product",
+            "productCategory": "Rx-only/Generic",
+            "ndcCode": "00264-1751-10",
+            "productName-lowercase": "dextrose in ringers"
+        }
+    },
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:mixinTypes": [
+        "cq:ReplicationStatus"
+    ],
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy": "preReplicationServiceUser",
+    "jcr:created": "Thu Sep 16 2021 08:21:40 GMT+0200",
+    "cq:lastReplicated": "Wed Sep 22 2021 09:32:57 GMT+0200",
+    "gcrCode": 924649,
+    "modified-counter": 18,
+    "name": "Ca Cl/Dextrose/K Cl/Na Cl/Na Lact",
+    "type": "gcr",
+    "jcr:lastModified": "Wed Sep 22 2021 09:16:41 GMT+0200",
+    "name-lowercase": "ca cl/dextrose/k cl/na cl/na lact"
+}

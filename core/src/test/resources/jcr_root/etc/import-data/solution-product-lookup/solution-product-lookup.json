@@ -1,0 +1,1495 @@
+{
+    "jcr:primaryType": "nt:unstructured",
+    "00004": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d5lr",
+            "d5w in lr",
+            "d5wlr"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:50 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D5LR",
+        "solutionProductId": 4,
+        "solutionName-lowercase": "dextrose 5% in lactated ringers",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            114451,
+            112912
+        ],
+        "solutionName": "Dextrose 5% in lactated Ringers",
+        "solutionOtherNames": [
+            "D5LR",
+            "D5W in LR",
+            "D5WLR"
+        ]
+    },
+    "00006": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "sodium chloride 0.9%",
+            "ns",
+            "nacl 0.9%"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:50 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "NS",
+        "solutionProductId": 6,
+        "solutionName-lowercase": "normal saline- sodium chloride 0.9%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            108711,
+            114024,
+            127676,
+            103488,
+            117392,
+            103490
+        ],
+        "solutionName": "Normal saline- Sodium chloride 0.9%",
+        "solutionOtherNames": [
+            "Sodium chloride 0.9%",
+            "NS",
+            "NaCl 0.9%"
+        ]
+    },
+    "00008": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "lactated ringer's",
+            "lr",
+            "ringer's lactated"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:50 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "LR",
+        "solutionProductId": 8,
+        "solutionName-lowercase": "lactated ringers injection",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            102142,
+            112740
+        ],
+        "solutionName": "Lactated Ringers Injection",
+        "solutionOtherNames": [
+            "Lactated Ringer's",
+            "LR",
+            "Ringer's lactated"
+        ]
+    },
+    "00009": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "dextrose 5% in water"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:50 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D5W",
+        "solutionProductId": 9,
+        "solutionName-lowercase": "d5w-dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101092
+        ],
+        "solutionName": "D5W-Dextrose 5%",
+        "solutionOtherNames": [
+            "Dextrose 5% in water"
+        ]
+    },
+    "00028": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:50 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Amino Acid Solution",
+        "solutionProductId": 28,
+        "solutionName-lowercase": "amino acids injection",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            100092,
+            100093,
+            100094,
+            100095,
+            108232,
+            100096,
+            109740,
+            100097,
+            100098,
+            110760,
+            100099,
+            112979,
+            100091,
+            115158,
+            100100,
+            100101
+        ],
+        "solutionName": "Amino acids injection"
+    },
+    "00247": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d5w in ringer's"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:50 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D5R",
+        "solutionProductId": 247,
+        "solutionName-lowercase": "dextrose 5% in ringers",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112913
+        ],
+        "solutionName": "Dextrose 5% in Ringers",
+        "solutionOtherNames": [
+            "D5W in Ringer's"
+        ]
+    },
+    "00251": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d2.5-1/2ns",
+            "d2.5w1/2ns",
+            "d2.5w in 1/2ns"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:50 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D2.5-0.45%NaCl",
+        "solutionProductId": 251,
+        "solutionName-lowercase": "dextrose 2.5% in sodium chloride 0.45%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101103
+        ],
+        "solutionName": "Dextrose 2.5% in sodium chloride 0.45%",
+        "solutionOtherNames": [
+            "D2.5-1/2NS",
+            "D2.5W1/2NS",
+            "D2.5W in 1/2NS"
+        ]
+    },
+    "00255": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d5w in sodium chloride 0.2%"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:50 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D5-0.2%NaCl",
+        "solutionProductId": 255,
+        "solutionName-lowercase": "dextrose 5% in sodium chloride 0.2%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101105
+        ],
+        "solutionName": "Dextrose 5% in sodium chloride 0.2%",
+        "solutionOtherNames": [
+            "D5W in sodium chloride 0.2%"
+        ]
+    },
+    "00257": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d5w in 1/2ns",
+            "d5-1/2ns",
+            "d5w in 1/2 normal saline",
+            "d5w1/2ns"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:50 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D5-0.45%NaCl",
+        "solutionProductId": 257,
+        "solutionName-lowercase": "dextrose 5% in sodium chloride 0.45%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101107
+        ],
+        "solutionName": "Dextrose 5% in sodium chloride 0.45%",
+        "solutionOtherNames": [
+            "D5W in 1/2NS",
+            "D5-1/2NS",
+            "D5W in 1/2 normal saline",
+            "D5W1/2NS"
+        ]
+    },
+    "00259": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d5ns",
+            "d5w in ns",
+            "d5w in normal saline",
+            "d5wns"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:50 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D5NS",
+        "solutionProductId": 259,
+        "solutionName-lowercase": "dextrose 5% in sodium chloride 0.9%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101108
+        ],
+        "solutionName": "Dextrose 5% in sodium chloride 0.9%",
+        "solutionOtherNames": [
+            "D5NS",
+            "D5W in NS",
+            "D5W in normal saline",
+            "D5WNS"
+        ]
+    },
+    "00261": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d10w in sodium chloride 0.9%",
+            "d10ns",
+            "d10w in normal saline",
+            "d10wns"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:50 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D10NS",
+        "solutionProductId": 261,
+        "solutionName-lowercase": "dextrose 10% in sodium chloride 0.9%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101102
+        ],
+        "solutionName": "Dextrose 10% in sodium chloride 0.9%",
+        "solutionOtherNames": [
+            "D10W in sodium chloride 0.9%",
+            "D10NS",
+            "D10W in normal saline",
+            "D10WNS"
+        ]
+    },
+    "00263": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "dextrose 10% in water",
+            "d10w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D10W",
+        "solutionProductId": 263,
+        "solutionName-lowercase": "dextrose 10%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101084
+        ],
+        "solutionName": "Dextrose 10%",
+        "solutionOtherNames": [
+            "Dextrose 10% in water",
+            "D10W"
+        ]
+    },
+    "00267": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "1/2ns",
+            "1/2 normal saline",
+            "nacl 0.45%"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "0.45%NaCl",
+        "solutionProductId": 267,
+        "solutionName-lowercase": "sodium chloride 0.45%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            103485,
+            103487
+        ],
+        "solutionName": "Sodium chloride 0.45%",
+        "solutionOtherNames": [
+            "1/2NS",
+            "1/2 normal saline",
+            "NaCl 0.45%"
+        ]
+    },
+    "00269": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "NaLactate 1/6 M",
+        "solutionProductId": 269,
+        "solutionName-lowercase": "sodium lactate 1/6 m",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            103528
+        ],
+        "solutionName": "Sodium lactate 1/6 M"
+    },
+    "00271": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Ringers Soln",
+        "solutionProductId": 271,
+        "solutionName-lowercase": "ringers injection",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112899,
+            112898
+        ],
+        "solutionName": "Ringers injection"
+    },
+    "00273": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Normosol M",
+        "solutionProductId": 273,
+        "solutionName-lowercase": "normosol m",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            113715
+        ],
+        "solutionName": "Normosol M"
+    },
+    "00275": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Normosol R",
+        "solutionProductId": 275,
+        "solutionName-lowercase": "normosol r",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            102609
+        ],
+        "solutionName": "Normosol R"
+    },
+    "00278": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "lipid emulsion"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Fat Emulsion",
+        "solutionProductId": 278,
+        "solutionName-lowercase": "fat emulsion (intravenous)",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101508,
+            101509,
+            113134,
+            113133,
+            113132,
+            101510
+        ],
+        "solutionName": "Fat emulsion (intravenous)",
+        "solutionOtherNames": [
+            "Lipid emulsion"
+        ]
+    },
+    "00314": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "6% hetastarch in 0.9% sodium chloride",
+            "6% hetastarch in ns"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Hespan",
+        "solutionProductId": 314,
+        "solutionName-lowercase": "hetastarch 6% in ns",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            104357
+        ],
+        "solutionName": "Hetastarch 6% in NS",
+        "solutionOtherNames": [
+            "6% Hetastarch in 0.9% sodium chloride",
+            "6% Hetastarch in NS"
+        ]
+    },
+    "00735": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "swfi"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "SWFI",
+        "solutionProductId": 735,
+        "solutionName-lowercase": "sterile water for injection",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            103584,
+            103586,
+            117506
+        ],
+        "solutionName": "Sterile water for injection",
+        "solutionOtherNames": [
+            "SWFI"
+        ]
+    },
+    "00803": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d5w in sodium chloride 0.3%"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D5-0.3%NaCl",
+        "solutionProductId": 803,
+        "solutionName-lowercase": "dextrose 5% in sodium chloride 0.3%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101110
+        ],
+        "solutionName": "Dextrose 5% in sodium chloride 0.3%",
+        "solutionOtherNames": [
+            "D5W in sodium chloride 0.3%"
+        ]
+    },
+    "00815": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "dextran 70 6% in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Dextran 6%-D5W",
+        "solutionProductId": 815,
+        "solutionName-lowercase": "dextran 6% in dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            104275
+        ],
+        "solutionName": "Dextran 6% in dextrose 5%",
+        "solutionOtherNames": [
+            "Dextran 70 6% in D5W"
+        ]
+    },
+    "00816": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "dextran 70 6% in ns",
+            "dextran 70 6% in normal saline"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Dextran 6%-NS",
+        "solutionProductId": 816,
+        "solutionName-lowercase": "dextran 6% in sodium chloride 0.9%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            104274,
+            104460
+        ],
+        "solutionName": "Dextran 6% in sodium chloride 0.9%",
+        "solutionOtherNames": [
+            "Dextran 70 6% in NS",
+            "Dextran 70 6% in normal saline"
+        ]
+    },
+    "00821": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d2.5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D2.5W",
+        "solutionProductId": 821,
+        "solutionName-lowercase": "dextrose 2.5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101087
+        ],
+        "solutionName": "Dextrose 2.5%",
+        "solutionOtherNames": [
+            "D2.5W"
+        ]
+    },
+    "00822": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "ionosol b in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Ionosol B in D5W",
+        "solutionProductId": 822,
+        "solutionName-lowercase": "ionosol b in dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112710
+        ],
+        "solutionName": "Ionosol B in dextrose 5%",
+        "solutionOtherNames": [
+            "Ionosol B in D5W"
+        ]
+    },
+    "00823": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "ionosol mb in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Ionosol MB in D5W",
+        "solutionProductId": 823,
+        "solutionName-lowercase": "ionosol mb in dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112711
+        ],
+        "solutionName": "Ionosol MB in dextrose 5%",
+        "solutionOtherNames": [
+            "Ionosol MB in D5W"
+        ]
+    },
+    "00824": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "ionosol t in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Ionosol T in D5W",
+        "solutionProductId": 824,
+        "solutionName-lowercase": "ionosol t in dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112709
+        ],
+        "solutionName": "Ionosol T in dextrose 5%",
+        "solutionOtherNames": [
+            "Ionosol T in D5W"
+        ]
+    },
+    "00826": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d20w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D20W",
+        "solutionProductId": 826,
+        "solutionName-lowercase": "dextrose 20%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101085
+        ],
+        "solutionName": "Dextrose 20%",
+        "solutionOtherNames": [
+            "D20W"
+        ]
+    },
+    "00827": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "normosol m in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Normosol M in D5W",
+        "solutionProductId": 827,
+        "solutionName-lowercase": "normosol m in dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112712
+        ],
+        "solutionName": "Normosol M in dextrose 5%",
+        "solutionOtherNames": [
+            "Normosol M in D5W"
+        ]
+    },
+    "00828": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "normosol r in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Normosol R in D5W",
+        "solutionProductId": 828,
+        "solutionName-lowercase": "normosol r in dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112713
+        ],
+        "solutionName": "Normosol R in dextrose 5%",
+        "solutionOtherNames": [
+            "Normosol R in D5W"
+        ]
+    },
+    "00831": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "alcohol 5% in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Alcohol 5%-D5W",
+        "solutionProductId": 831,
+        "solutionName-lowercase": "alcohol 5%, dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            104458
+        ],
+        "solutionName": "Alcohol 5%, dextrose 5%",
+        "solutionOtherNames": [
+            "Alcohol 5% in D5W"
+        ]
+    },
+    "00835": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Fructose 10%",
+        "solutionProductId": 835,
+        "solutionName-lowercase": "fructose 10%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            114102
+        ],
+        "solutionName": "Fructose 10%"
+    },
+    "00849": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "dextran 40 10% in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Dextran 40 10%-D5W",
+        "solutionProductId": 849,
+        "solutionName-lowercase": "dextran 40 10% in dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            104273
+        ],
+        "solutionName": "Dextran 40 10% in dextrose 5%",
+        "solutionOtherNames": [
+            "Dextran 40 10% in D5W"
+        ]
+    },
+    "00850": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "dextran 40 10% in ns",
+            "dextran 40 10% in normal saline"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Dextran 40 10%-NS",
+        "solutionProductId": 850,
+        "solutionName-lowercase": "dextran 40 10% in sodium chloride 0.9%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            104272
+        ],
+        "solutionName": "Dextran 40 10% in sodium chloride 0.9%",
+        "solutionOtherNames": [
+            "Dextran 40 10% in NS",
+            "Dextran 40 10% in normal saline"
+        ]
+    },
+    "00853": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "isolyte m in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Isolyte M in D5W",
+        "solutionProductId": 853,
+        "solutionName-lowercase": "isolyte m with dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112720
+        ],
+        "solutionName": "Isolyte M with dextrose 5%",
+        "solutionOtherNames": [
+            "Isolyte M in D5W"
+        ]
+    },
+    "00854": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "isolyte p in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Isolyte P in D5W",
+        "solutionProductId": 854,
+        "solutionName-lowercase": "isolyte p with dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112721
+        ],
+        "solutionName": "Isolyte P with dextrose 5%",
+        "solutionOtherNames": [
+            "Isolyte P in D5W"
+        ]
+    },
+    "00858": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d10w in sodium chloride 0.2%"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D10-1/5NS",
+        "solutionProductId": 858,
+        "solutionName-lowercase": "dextrose 10% in sodium chloride 0.18%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101100
+        ],
+        "solutionName": "Dextrose 10% in sodium chloride 0.18%",
+        "solutionOtherNames": [
+            "D10W in sodium chloride 0.2%"
+        ]
+    },
+    "00860": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "isolyte e in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Isolyte E in D5W",
+        "solutionProductId": 860,
+        "solutionName-lowercase": "isolyte e with dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            114569
+        ],
+        "solutionName": "Isolyte E with dextrose 5%",
+        "solutionOtherNames": [
+            "Isolyte E in D5W"
+        ]
+    },
+    "00862": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "plasma-lyte m in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Plasma-Lyte M-D5W",
+        "solutionProductId": 862,
+        "solutionName-lowercase": "plasma-lyte m in dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112714
+        ],
+        "solutionName": "Plasma-Lyte M in dextrose 5%",
+        "solutionOtherNames": [
+            "Plasma-Lyte M in D5W"
+        ]
+    },
+    "00884": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "plasma-lyte 56 in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Plasma-Lyte 56-D5W",
+        "solutionProductId": 884,
+        "solutionName-lowercase": "plasma-lyte 56 in dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112717
+        ],
+        "solutionName": "Plasma-Lyte 56 in dextrose 5%",
+        "solutionOtherNames": [
+            "Plasma-Lyte 56 in D5W"
+        ]
+    },
+    "00886": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Normosol R, pH 7.4",
+        "solutionProductId": 886,
+        "solutionName-lowercase": "normosol r, ph 7.4",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112756
+        ],
+        "solutionName": "Normosol R, pH 7.4"
+    },
+    "00890": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d2.5wlr",
+            "d2.5w in lr",
+            "d2.5lr"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D2.5LR",
+        "solutionProductId": 890,
+        "solutionName-lowercase": "dextrose 2.5% in lactated ringers",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112914
+        ],
+        "solutionName": "Dextrose 2.5% in lactated Ringers",
+        "solutionOtherNames": [
+            "D2.5WLR",
+            "D2.5W in LR",
+            "D2.5LR"
+        ]
+    },
+    "00902": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d3.3w in in sodium chloride 0.3%"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D3.3-0.3%NaCl",
+        "solutionProductId": 902,
+        "solutionName-lowercase": "dextrose 3.3% in sodium chloride 0.3%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            117507
+        ],
+        "solutionName": "Dextrose 3.3% in sodium chloride 0.3%",
+        "solutionOtherNames": [
+            "D3.3W in in sodium chloride 0.3%"
+        ]
+    },
+    "00914": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "6% hetastarch in lactated electrolyte"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Hextend",
+        "solutionProductId": 914,
+        "solutionName-lowercase": "hetastarch 6% (hextend)",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            114778
+        ],
+        "solutionName": "Hetastarch 6% (Hextend)",
+        "solutionOtherNames": [
+            "6% Hetastarch in lactated electrolyte"
+        ]
+    },
+    "00922": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Plasma-Lyte A",
+        "solutionProductId": 922,
+        "solutionName-lowercase": "plasma-lyte a",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            114126
+        ],
+        "solutionName": "Plasma-Lyte A"
+    },
+    "00929": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d25w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D25W",
+        "solutionProductId": 929,
+        "solutionName-lowercase": "dextrose 25%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101086
+        ],
+        "solutionName": "Dextrose 25%",
+        "solutionOtherNames": [
+            "D25W"
+        ]
+    },
+    "00930": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d50w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:51 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D50W",
+        "solutionProductId": 930,
+        "solutionName-lowercase": "dextrose 50%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101090
+        ],
+        "solutionName": "Dextrose 50%",
+        "solutionOtherNames": [
+            "D50W"
+        ]
+    },
+    "00932": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d40w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:52 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D40W",
+        "solutionProductId": 932,
+        "solutionName-lowercase": "dextrose 40%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101089
+        ],
+        "solutionName": "Dextrose 40%",
+        "solutionOtherNames": [
+            "D40W"
+        ]
+    },
+    "00940": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d10wlr",
+            "d10lr"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:52 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D10LR",
+        "solutionProductId": 940,
+        "solutionName-lowercase": "dextrose 10% in lactated ringers",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            110910
+        ],
+        "solutionName": "Dextrose 10% in lactated Ringers",
+        "solutionOtherNames": [
+            "D10WLR",
+            "D10LR"
+        ]
+    },
+    "01015": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:52 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Plasma-Lyte 148-D5W",
+        "solutionProductId": 1015,
+        "solutionName-lowercase": "plasma-lyte 148 in dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112718
+        ],
+        "solutionName": "Plasma-Lyte 148 in dextrose 5%"
+    },
+    "01038": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d30w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:52 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D30W",
+        "solutionProductId": 1038,
+        "solutionName-lowercase": "dextrose 30%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101088
+        ],
+        "solutionName": "Dextrose 30%",
+        "solutionOtherNames": [
+            "D30W"
+        ]
+    },
+    "01046": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:52 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Peritoneal Dialysate",
+        "solutionProductId": 1046,
+        "solutionName-lowercase": "peritoneal dialysis solution",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            122951
+        ],
+        "solutionName": "Peritoneal dialysis solution"
+    },
+    "01050": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:52 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Cardioplegia Soln",
+        "solutionProductId": 1050,
+        "solutionName-lowercase": "cardioplegia solution",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            100532,
+            112703
+        ],
+        "solutionName": "Cardioplegia solution"
+    },
+    "01132": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "alcohol 10% in d5w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:52 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Alcohol 10%-D5W",
+        "solutionProductId": 1132,
+        "solutionName-lowercase": "alcohol 10%, dextrose 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            104457
+        ],
+        "solutionName": "Alcohol 10%, dextrose 5%",
+        "solutionOtherNames": [
+            "Alcohol 10% in D5W"
+        ]
+    },
+    "01282": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d70w"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:52 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "Dextrose 70%",
+        "solutionProductId": 1282,
+        "solutionName-lowercase": "dextrose 70% in water",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101095
+        ],
+        "solutionName": "Dextrose 70% in water",
+        "solutionOtherNames": [
+            "D70W"
+        ]
+    },
+    "01181": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "nacl  5%"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:52 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "5% NaCl",
+        "solutionProductId": 1181,
+        "solutionName-lowercase": "sodium chloride 5%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            103498
+        ],
+        "solutionName": "Sodium chloride 5%",
+        "solutionOtherNames": [
+            "NaCl  5%"
+        ]
+    },
+    "01390": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:52 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "AminoAc 3%, Glycerin",
+        "solutionProductId": 1390,
+        "solutionName-lowercase": "3% amino acid, 3% glycerine injection with electrolytes",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            112996
+        ],
+        "solutionName": "3% Amino acid, 3% glycerine injection with electrolytes"
+    },
+    "01194": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "d10w1/2ns",
+            "d10-1/2ns",
+            "d10w in sodium chloride 0.45%"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:52 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "D10-0.45%NaCl",
+        "solutionProductId": 1194,
+        "solutionName-lowercase": "dextrose 10% in sodium chloride 0.45%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            101101
+        ],
+        "solutionName": "Dextrose 10% in sodium chloride 0.45%",
+        "solutionOtherNames": [
+            "D10W1/2NS",
+            "D10-1/2NS",
+            "D10W in sodium chloride 0.45%"
+        ]
+    },
+    "01180": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:mixinTypes": [
+            "cq:ReplicationStatus"
+        ],
+        "cq:lastReplicationAction": "Activate",
+        "solutionOtherNames-lowercase": [
+            "nacl 3%"
+        ],
+        "cq:lastReplicatedBy": "preReplicationServiceUser",
+        "jcr:created": "Fri Oct 08 2021 14:44:00 GMT+0200",
+        "cq:lastReplicated": "Fri Oct 08 2021 14:59:52 GMT+0200",
+        "modified-counter": 2,
+        "solutionAbbreviation": "3% NaCl",
+        "solutionProductId": 1180,
+        "solutionName-lowercase": "sodium chloride 3%",
+        "jcr:lastModified": "Fri Oct 08 2021 14:58:00 GMT+0200",
+        "solutionGfcs": [
+            103495
+        ],
+        "solutionName": "Sodium chloride 3%",
+        "solutionOtherNames": [
+            "NaCl 3%"
+        ]
+    }
+}

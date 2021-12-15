@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Storage Details"
+          margin="{Boolean}true"
+          sling:resourceType="granite/ui/components/coral/foundation/container">
+    <items jcr:primaryType="nt:unstructured">
+        <add-storage-details
+            jcr:primaryType="nt:unstructured"
+            granite:class="cq-dialog-checkbox-showhide"
+            sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+            name="./addStorageDetails"
+            text="Add Storage Details"
+            value="true">
+            <granite:data
+                jcr:primaryType="nt:unstructured"
+                cq-dialog-checkbox-showhide-target=".storageDetails-showhide-target"/>
+        </add-storage-details>
+        <storage-details
+            jcr:primaryType="nt:unstructured"
+            granite:class="storageDetails-showhide-target hide"
+            sling:resourceType="granite/ui/components/coral/foundation/container">
+            <items jcr:primaryType="nt:unstructured">
+                <storage
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="Storage"
+                    name="./storage">
+                </storage>
+                <storage-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="Storage Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./storageReferences"/>
+                </storage-references>
+                <freezing
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="Freezing"
+                    name="./freezing"/>
+                <freezing-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="Freezing Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./freezingReferences"/>
+                </freezing-references>
+                <light-effects
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="Light Effects"
+                    name="./lightEffects"/>
+                <lightEffects-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="Light Effects Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./lightEffectsReferences"/>
+                </lightEffects-references>
+            </items>
+        </storage-details>
+    </items>
+</jcr:root>

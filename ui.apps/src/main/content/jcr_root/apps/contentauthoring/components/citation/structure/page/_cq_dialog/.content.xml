@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          jcr:primaryType="nt:unstructured">
+    <content jcr:primaryType="nt:unstructured">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs jcr:primaryType="nt:unstructured">
+                <items jcr:primaryType="nt:unstructured" sling:hideChildren="[socialmedia,pwa,cloudservices,personalization,permissions,blueprint,livecopy]">
+                    <basic jcr:primaryType="nt:unstructured">
+                        <items jcr:primaryType="nt:unstructured">
+                            <column jcr:primaryType="nt:unstructured">
+                                <items jcr:primaryType="nt:unstructured" sling:hideChildren="[branding,htmlid,moretitles,onofftime,vanityurl]">
+                                    <title jcr:primaryType="nt:unstructured"
+                                           jcr:title="Title"
+                                           sling:resourceType="granite/ui/components/coral/foundation/form/fieldset">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <citation-type
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                cq:showOnCreate="{Boolean}true"
+                                                emptyOption="{Boolean}true"
+                                                required="{Boolean}true"
+                                                fieldLabel="Citation Type"
+                                                name="./root/container/citation/citationType">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <productInfo
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Product Info"
+                                                        value="product-info"/>
+                                                    <generic
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Generic"
+                                                        value="generic"/>
+                                                    <book
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Book"
+                                                        value="book"/>
+                                                    <journal
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Journal"
+                                                        value="journal"/>
+                                                    <electronic
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Electronic"
+                                                        value="electronic"/>
+                                                </items>
+                                            </citation-type>
+                                        </items>
+                                    </title>
+                                </items>
+                            </column>
+                        </items>
+                    </basic>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

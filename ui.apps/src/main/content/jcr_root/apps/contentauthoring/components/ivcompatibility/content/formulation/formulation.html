@@ -1,0 +1,127 @@
+<div data-sly-use.model="com.ibm.watsonhealth.micromedex.core.models.ivcompatibility.Formulation" class="cmp-formulation">
+
+    <sly data-sly-use.validationTemplate="/apps/contentauthoring/components/commons/templates/validation/validation.html"/>
+    <sly data-sly-call="${validationTemplate.validation @ headline='Formulation', headlineLevel='3', model=model, resourcepath=resource.path, pagevalidation=false}"/>
+
+    <ul>
+        <li data-sly-test="${model.displayFormulation}"><span class="property-label">Display Formulation:</span> ${model.displayFormulation}</li>
+        <li><span class="property-label">Formulation Description:</span> ${model.formulationDescription}</li>
+        <li data-sly-test="${model.formulationTradenames}"><span class="property-label">Formulation Tradenames:</span> ${model.formulationTradenames}</li>
+        <li data-sly-test="${model.addPhDetails}">
+            <span class="property-label">pH Details</span>
+            <ul>
+                <li data-sly-test="${model.osmolality}"><span class="property-label">Osmolilatiy:</span> ${model.osmolality}</li>
+                <li data-sly-test.osmolalityReferenceNames="${model.osmolalityReferenceNames}"><span class="property-label">Osmolilatiy Reference Names:</span>
+                    <ul data-sly-list="${osmolalityReferenceNames}">
+                        <li> ${item}</li>
+                    </ul>
+                </li>
+                <li data-sly-test="${model.phMin}"><span class="property-label">pH Min:</span> ${model.phMin}</li>
+                <li data-sly-test.phMinReferenceNames="${model.phMinReferenceNames}"><span class="property-label">pH Min Reference Names:</span>
+                    <ul data-sly-list="${phMinReferenceNames}">
+                        <li> ${item}</li>
+                    </ul>
+                </li>
+                <li data-sly-test="${model.phEffects}"><span class="property-label">pH Effects:</span> ${model.phEffects}</li>
+                <li data-sly-test.phEffectsReferenceNames="${model.phEffectsReferenceNames}"><span class="property-label">pH Effects Reference Names:</span>
+                    <ul data-sly-list="${phEffectsReferenceNames}">
+                        <li> ${item}</li>
+                    </ul>
+                </li>
+                <li data-sly-test="${model.phMax}"><span class="property-label">pH Max:</span> ${model.phMax}</li>
+                <li data-sly-test.phMaxReferenceNames="${model.phMaxReferenceNames}"><span class="property-label">pH Max Reference Names:</span>
+                    <ul data-sly-list="${phMaxReferenceNames}">
+                        <li>${item}</li>
+                    </ul>
+                </li>
+                <li data-sly-test="${model.phRange}"><span class="property-label">pH Range:</span>${model.phRange}</li>
+                <li data-sly-test.phRangeReferenceNames="${model.phRangeReferenceNames}"><span class="property-label">pH Range Reference Names:</span>
+                    <ul data-sly-list="${phRangeReferenceNames}">
+                        <li>${item}</li>
+                    </ul>
+                </li>
+                <li data-sly-test="${model.phMean}"><span class="property-label">pH Mean:</span>${model.phMean}</li>
+                <li data-sly-test.phMeanReferenceNames="${model.phMeanReferenceNames}"><span class="property-label">pH Mean Reference Names:</span>
+                    <ul data-sly-list="${phMeanReferenceNames}">
+                        <li>${item}</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li data-sly-test="${model.addStorageDetails}">
+            <span class="property-label">Storage Details</span>
+            <ul>
+                <li data-sly-test="${model.storage}"><span class="property-label">Storage:</span>${model.storage}</li>
+                <li data-sly-test.storageReferenceNames="${model.storageReferenceNames}"><span class="property-label">Storage Reference Names:</span>
+                    <ul data-sly-list="${storageReferenceNames}">
+                        <li>${item}</li>
+                    </ul>
+                </li>
+                <li data-sly-test="${model.freezing}"><span class="property-label">Freezing:</span>${model.freezing}</li>
+                <li data-sly-test.freezingReferenceNames="${model.freezingReferenceNames}"><span class="property-label">Freezing Reference Names:</span>
+                    <ul data-sly-list="${freezingReferenceNames}">
+                        <li>${item}</li>
+                    </ul>
+                </li>
+                <li data-sly-test="${model.lightEffects}"><span class="property-label">Light Effects:</span>${model.lightEffects}</li>
+                <li data-sly-test.lightEffectsReferenceNames="${model.lightEffectsReferenceNames}">
+                    <span class="property-label">Light Effects Reference Names:</span>
+                    <ul data-sly-list="${lightEffectsReferenceNames}">
+                        <li>${item}</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li data-sly-test="${model.addStabilityDetails}">
+            <span class="property-label">Stability Details</span>
+            <ul>
+                <li data-sly-test="${model.stability}"><span class="property-label">Stability:</span>${model.stability}</li>
+                <li data-sly-test.stabilityReferenceNames="${model.stabilityReferenceNames}"><span class="property-label">Stability Reference Names:</span>
+                    <ul data-sly-list="${stabilityReferenceNames}">
+                        <li>${item}</li>
+                    </ul>
+                </li>
+                <li data-sly-test="${model.stabilityMax}"><span class="property-label">Stability Max:</span>${model.stabilityMax}</li>
+                <li data-sly-test.stabilityMaxReferenceNames="${model.stabilityMaxReferenceNames}">
+                    <span class="property-label">Stability Max Reference Names:</span>
+                    <ul data-sly-list="${stabilityMaxReferenceNames}">
+                        <li>${item}</li>
+                    </ul>
+                </li>
+                <li data-sly-test="${model.sorption}"><span class="property-label">Sorption:</span>${model.sorption}</li>
+                <li data-sly-test.sorptionReferenceNames="${model.sorptionReferenceNames}"><span class="property-label">Sorption Reference Names:</span>
+                    <ul data-sly-list="${sorptionReferenceNames}">
+                        <li>${item}</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li data-sly-test="${model.addAdditionalInformation}">
+            <span class="property-label">Additional Information</span>
+            <ul>
+                <li data-sly-test="${model.filtration}"><span class="property-label">Filtration:</span>${model.filtration}</li>
+                <li data-sly-test.filtrationReferenceNames="${model.filtrationReferenceNames}"><span class="property-label">Filtration Reference Names:</span>
+                    <ul data-sly-list="${filtrationReferenceNames}">
+                        <li>${item}</li>
+                    </ul>
+                </li>
+                <li data-sly-test="${model.sodiumContent}"><span class="property-label">Sodium Content:</span>${model.sodiumContent}</li>
+                <li data-sly-test.sodiumContentReferenceNames="${model.sodiumContentReferenceNames}"><span class="property-label">Sodium Content Reference Names:</span>
+                    <ul data-sly-list="${sodiumContentReferenceNames}">
+                        <li>${item}</li>
+                    </ul>
+                </li>
+                <li data-sly-test="${model.otherInformation}"><span class="property-label">Other Information:</span>${model.otherInformation}</li>
+                <li data-sly-test.otherInformationReferenceNames="${model.otherInformationReferenceNames}"><span class="property-label">Other Information Reference Names:</span>
+                    <ul data-sly-list="${otherInformationReferenceNames}">
+                        <li>${item}</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <script>
+        revalidate();
+    </script>
+</div>

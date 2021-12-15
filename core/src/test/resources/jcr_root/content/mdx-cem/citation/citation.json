@@ -1,0 +1,226 @@
+{
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Sat Sep 04 2021 06:56:50 GMT+0200",
+    "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:createdBy": "admin",
+        "jcr:title": "Citation",
+        "cq:template": "/conf/contentauthoring/settings/wcm/templates/citation-root",
+        "jcr:created": "Sat Sep 04 2021 06:56:50 GMT+0200",
+        "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+        "cq:allowedTemplates": [
+            "/conf/contentauthoring/settings/wcm/templates/citation-structure",
+            "/conf/contentauthoring/settings/wcm/templates/citation"
+        ],
+        "root": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container"
+        }
+    },
+    "unit-tests": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Wed Sep 15 2021 06:06:19 GMT+0200",
+        "jcr:content": {
+            "jcr:primaryType": "cq:PageContent",
+            "jcr:createdBy": "admin",
+            "jcr:title": "Unit Tests",
+            "cq:template": "/conf/contentauthoring/settings/wcm/templates/citation-structure",
+            "jcr:created": "Wed Sep 15 2021 06:06:19 GMT+0200",
+            "cq:lastModified": "Wed Sep 15 2021 06:06:19 GMT+0200",
+            "sling:resourceType": "contentauthoring/components/citation/structure/page",
+            "cq:allowedTemplates": [
+                "/conf/contentauthoring/settings/wcm/templates/citation-structure",
+                "/conf/contentauthoring/settings/wcm/templates/citation"
+            ],
+            "cq:lastModifiedBy": "admin",
+            "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container"
+            }
+        },
+        "citation-1": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Wed Sep 15 2021 05:14:23 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Citation 1",
+                "jcr:versionHistory": "42b4730d-7dd2-4095-8f5b-2bb17e9ddd39",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/citation",
+                "jcr:predecessors": [
+                    "b9ccbe22-b430-4438-ae43-21f8a821ec4f"
+                ],
+                "jcr:created": "Wed Sep 15 2021 05:14:23 GMT+0200",
+                "cq:lastModified": "Wed Sep 15 2021 05:14:23 GMT+0200",
+                "jcr:baseVersion": "b9ccbe22-b430-4438-ae43-21f8a821ec4f",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "2e110b86-ef9e-45d4-8df7-7c1b43fbb2d1",
+                "sling:resourceType": "contentauthoring/components/citation/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "citation": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "jcr:createdBy": "admin",
+                            "jcr:lastModifiedBy": "admin",
+                            "jcr:created": "Thu Sep 30 2021 08:30:53 GMT+0200",
+                            "citationId": 64165,
+                            "jcr:lastModified": "Thu Sep 30 2021 08:30:53 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/citation/content/citation",
+                            "volumeIssueJournal": "Volume Issue Citation 2",
+                            "titleJournal": "Title Citation 1",
+                            "etalEnabledJournal": "true",
+                            "firstAuthorJournal": "First Author",
+                            "journalAbbreviation": "c1",
+                            "secondAuthorJournal": "second author",
+                            "pagesJournal": "100",
+                            "publicationDate": "1.1.2021",
+                            "citationType": "journal"
+                        }
+                    }
+                }
+            }
+        },
+        "folder-1": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Wed Sep 15 2021 05:15:12 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "folder 1",
+                "jcr:versionHistory": "31bf1bce-1879-4ca4-9058-4b08df728b97",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/citation-structure",
+                "jcr:predecessors": [
+                    "a3edc639-109b-4583-aa09-f741ab566e80"
+                ],
+                "jcr:created": "Wed Sep 15 2021 05:15:12 GMT+0200",
+                "cq:lastModified": "Wed Sep 15 2021 05:15:12 GMT+0200",
+                "jcr:baseVersion": "a3edc639-109b-4583-aa09-f741ab566e80",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "ea2ed7fb-e82f-4ce9-a2d4-46a7afdaaf47",
+                "sling:resourceType": "contentauthoring/components/citation/structure/page",
+                "cq:allowedTemplates": [
+                    "/conf/contentauthoring/settings/wcm/templates/citation-structure",
+                    "/conf/contentauthoring/settings/wcm/templates/citation"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container"
+                }
+            },
+            "citation-2": {
+                "jcr:primaryType": "cq:Page",
+                "jcr:createdBy": "admin",
+                "jcr:created": "Wed Sep 15 2021 05:15:24 GMT+0200",
+                "jcr:content": {
+                    "jcr:primaryType": "cq:PageContent",
+                    "jcr:mixinTypes": [
+                        "mix:versionable"
+                    ],
+                    "jcr:createdBy": "admin",
+                    "jcr:title": "Citation 2",
+                    "jcr:versionHistory": "319386b9-4e6d-41cb-a0ce-4d65408a8f75",
+                    "cq:template": "/conf/contentauthoring/settings/wcm/templates/citation",
+                    "jcr:predecessors": [
+                        "02383297-8e93-4357-b4b1-526e984268da"
+                    ],
+                    "jcr:created": "Wed Sep 15 2021 05:15:24 GMT+0200",
+                    "cq:lastModified": "Wed Sep 15 2021 05:15:24 GMT+0200",
+                    "jcr:baseVersion": "02383297-8e93-4357-b4b1-526e984268da",
+                    "jcr:isCheckedOut": true,
+                    "jcr:uuid": "3f2fafed-cdbe-43f4-9111-bd314fdf3abf",
+                    "sling:resourceType": "contentauthoring/components/citation/structure/page",
+                    "cq:allowedTemplates": [
+                        "-"
+                    ],
+                    "cq:lastModifiedBy": "admin",
+                    "root": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "container": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "layout": "responsiveGrid",
+                            "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container"
+                        }
+                    }
+                }
+            }
+        },
+        "citation-3": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Wed Sep 15 2021 05:15:37 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:mixinTypes": [
+                    "mix:versionable"
+                ],
+                "jcr:createdBy": "admin",
+                "jcr:title": "Citation 3",
+                "jcr:versionHistory": "a78e7ca8-cd41-4a5e-b8c2-280e03d2a6e3",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/citation",
+                "jcr:predecessors": [
+                    "03250650-abd8-44d4-942d-5edb80824660"
+                ],
+                "jcr:created": "Wed Sep 15 2021 05:15:37 GMT+0200",
+                "cq:lastModified": "Wed Sep 15 2021 05:15:37 GMT+0200",
+                "jcr:baseVersion": "03250650-abd8-44d4-942d-5edb80824660",
+                "jcr:isCheckedOut": true,
+                "jcr:uuid": "047737a1-5014-40a6-a4f5-a00df9a6b5bb",
+                "sling:resourceType": "contentauthoring/components/citation/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "citation": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "jcr:createdBy": "admin",
+                            "jcr:lastModifiedBy": "admin",
+                            "jcr:created": "Thu Sep 30 2021 08:30:53 GMT+0200",
+                            "citationId": 74165,
+                            "jcr:lastModified": "Thu Sep 30 2021 08:30:53 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/citation/content/citation",
+                            "stateProductInfo": "OÖ",
+                            "brandName": "LASK Linz",
+                            "citationType": "product-info",
+                            "cityProductInfo": "Wels",
+                            "country": "Austria"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

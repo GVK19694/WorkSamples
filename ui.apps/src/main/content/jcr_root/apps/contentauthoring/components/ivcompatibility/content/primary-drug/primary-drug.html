@@ -1,0 +1,44 @@
+<div data-sly-use.model="com.ibm.watsonhealth.micromedex.core.models.ivcompatibility.PrimaryDrug" class="cmp-primary-drug">
+
+    <sly data-sly-use.validationTemplate="/apps/contentauthoring/components/commons/templates/validation/validation.html"/>
+    <sly data-sly-use.solutionTemplate="/apps/contentauthoring/components/ivcompatibility/templates/solution/solution.html"/>
+
+    <sly data-sly-call="${validationTemplate.validation @ headline='Primary Drug', headlineLevel='2', model=model, resourcepath=resource.path, pagevalidation=false}"/>
+
+    <ul>
+        <li><span class="property-label">Citation:</span><span title="${model.citationPath}"> ${model.citationName}</span></li>
+        <sly data-sly-test="${model.monographPrimaryDrugSource}">
+            <li><span class="property-label">Primary Drug Name:</span><span title="${model.primaryDrugPath}"> ${model.primaryDrugName}</span></li>
+        </sly>
+        <sly data-sly-test="${model.newPrimaryDrugSource}">
+            <li><span class="property-label">Primary Drug Type:</span> ${model.primaryDrugType.displayName}</li>
+            <li data-sly-test.primaryDrugs="${model.primaryDrugs}"><span class="property-label">Primary Drugs:</span>
+                <ul data-sly-list="${primaryDrugs}">
+                    <li> ${item}</li>
+                </ul>
+            </li>
+            <li data-sly-test.alternativeNames="${model.alternativeNames}"><span class="property-label">Alternative Names:</span>
+                <ul data-sly-list="${alternativeNames}">
+                    <li> ${item}</li>
+                </ul>
+            </li>
+        </sly>
+        <li data-sly-test.manufacturer="${model.manufacturer}"><span class="property-label">Manufacturer:</span> ${manufacturer}</li>
+        <li data-sly-test.tradeName="${model.tradeName}"><span class="property-label">Trade Name:</span> ${tradeName}</li>
+        <li data-sly-test.studyPeriod="${model.studyPeriod}"><span class="property-label">Study Period:</span> ${studyPeriod}</li>
+        <li data-sly-test.method="${model.method}"><span class="property-label">Method:</span> ${method}</li>
+        <li data-sly-test.container="${model.container}"><span class="property-label">Container:</span> ${container}</li>
+        <li data-sly-test.storage="${model.storage}"><span class="property-label">Storage:</span> ${storage}</li>
+        <li data-sly-test="${model.solutionEnabled}">
+            <span class="property-label">Vehicle</span>
+            <sly data-sly-call="${solutionTemplate.solution @ model=model}"/>
+        </li>
+    </ul>
+
+    <div class="cmp-primary-drug__subcomponents"
+         data-sly-resource="${'container' @ resourceType='contentauthoring/components/ivcompatibility/layout/primary-drug-container'}"></div>
+
+    <script>
+        revalidate();
+    </script>
+</div>

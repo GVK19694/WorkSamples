@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/contentauthoring"/>
+    <filter root="/content/mdx-cem" mode="merge"/>
+    <filter root="/content/dam/contentauthoring/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/contentauthoring" mode="merge"/>
+</workspaceFilter>

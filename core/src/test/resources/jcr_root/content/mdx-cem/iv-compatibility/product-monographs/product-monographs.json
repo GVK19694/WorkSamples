@@ -1,0 +1,272 @@
+{
+    "jcr:primaryType": "cq:Page",
+    "jcr:createdBy": "admin",
+    "jcr:created": "Mon Aug 23 2021 11:29:18 GMT+0200",
+    "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:mixinTypes": [
+            "mix:versionable"
+        ],
+        "jcr:createdBy": "admin",
+        "jcr:title": "Products",
+        "cq:lastReplicationAction": "Activate",
+        "jcr:versionHistory": "7bcb03a9-11a2-490c-999f-71acbda645c7",
+        "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-product-root",
+        "cq:lastReplicatedBy": "admin",
+        "jcr:predecessors": [
+            "ae0c072e-977a-4a32-a04e-4a11c1616cc4"
+        ],
+        "jcr:created": "Mon Aug 23 2021 11:29:18 GMT+0200",
+        "cq:lastReplicated": "Mon Aug 23 2021 13:33:09 GMT+0200",
+        "cq:lastModified": "Mon Aug 23 2021 11:29:18 GMT+0200",
+        "jcr:baseVersion": "ae0c072e-977a-4a32-a04e-4a11c1616cc4",
+        "jcr:isCheckedOut": true,
+        "jcr:uuid": "9eee9955-4c1b-40b9-baae-d22b3c979db9",
+        "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+        "cq:allowedTemplates": [
+            "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-product-structure",
+            "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-product"
+        ],
+        "cq:lastModifiedBy": "admin",
+        "root": {
+            "jcr:primaryType": "nt:unstructured",
+            "layout": "responsiveGrid",
+            "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container"
+        }
+    },
+    "unit-tests": {
+        "jcr:primaryType": "cq:Page",
+        "jcr:createdBy": "admin",
+        "jcr:created": "Wed Sep 15 2021 12:57:25 GMT+0200",
+        "jcr:content": {
+            "jcr:primaryType": "cq:PageContent",
+            "jcr:createdBy": "admin",
+            "jcr:title": "Unit Tests",
+            "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-product-structure",
+            "jcr:created": "Wed Sep 15 2021 12:57:25 GMT+0200",
+            "cq:lastModified": "Wed Sep 15 2021 12:57:25 GMT+0200",
+            "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+            "cq:allowedTemplates": [
+                "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-product-structure",
+                "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-product"
+            ],
+            "cq:lastModifiedBy": "admin",
+            "root": {
+                "jcr:primaryType": "nt:unstructured",
+                "layout": "responsiveGrid",
+                "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container"
+            }
+        },
+        "product-1": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Wed Sep 15 2021 12:57:40 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:createdBy": "admin",
+                "jcr:title": "Product 1",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-product",
+                "jcr:created": "Wed Sep 15 2021 12:57:40 GMT+0200",
+                "cq:lastModified": "Wed Sep 15 2021 12:58:43 GMT+0200",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "substance": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "productMonographId": 1000000,
+                            "lexiconSubstanceSolutionReferencePaths": "/etc/import-data/solution-product-lookup/00004",
+                            "reconstitutionReferences": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "jcr:lastModifiedBy": "admin",
+                            "substanceTradeNames": [
+                                "tradename 1",
+                                "tradename 2"
+                            ],
+                            "jcr:lastModified": "Wed Sep 15 2021 12:58:05 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/substance",
+                            "formulationType": "Single-Substance",
+                            "substanceType": "Soln",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/substance-container",
+                                "formulation": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "displayFormulation": "true",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "addPhDetails": "true",
+                                    "phMax": "pH Max",
+                                    "phMin": "pH Min",
+                                    "phEffects": "pH Effects",
+                                    "formulationType": "Drug",
+                                    "formulationDescription": "formulation description",
+                                    "formulationTradenames": "tradename",
+                                    "jcr:lastModified": "Wed Sep 15 2021 12:58:43 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/formulation",
+                                    "osmolality": "Osmolality",
+                                    "osmolalityReferences": [
+                                        "/content/mdx-cem/citation/unit-tests/citation-1",
+                                        "/content/mdx-cem/citation/unit-tests/citation-3"
+                                    ]
+                                },
+                                "formulation2": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "displayFormulation": "true",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "addPhDetails": "true",
+                                    "phMax": "pH Max 2",
+                                    "phMin": "pH Min 2",
+                                    "phEffects": "pH Effects 2",
+                                    "formulationType": "Drug",
+                                    "formulationDescription": "formulation description 2",
+                                    "formulationTradenames": "tradename 2",
+                                    "jcr:lastModified": "Wed Sep 15 2021 12:59:43 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/formulation",
+                                    "osmolality": "Osmolality",
+                                    "osmolalityReferences": [
+                                        "/content/mdx-cem/citation/unit-tests/citation-1"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "product-2": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Thu Sep 16 2021 09:29:47 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:createdBy": "admin",
+                "jcr:title": "Product 2",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-product",
+                "jcr:created": "Thu Sep 16 2021 09:29:47 GMT+0200",
+                "cq:lastModified": "Thu Sep 16 2021 09:30:34 GMT+0200",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "substance": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "productMonographId": 1000001,
+                            "lexiconSubstanceDrugReferences": [
+                                "70E18927-0164-37C0-D848-3F1D0A030041@/@Year aspirin regimen began [Date]"
+                            ],
+                            "jcr:lastModifiedBy": "admin",
+                            "substanceTradeNames": "tradename 1",
+                            "jcr:lastModified": "Thu Sep 16 2021 09:30:24 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/substance",
+                            "formulationType": "Combination-Substance",
+                            "substanceType": "Drug",
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/substance-container",
+                                "formulation": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "displayFormulation": "true",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "formulationDescription": "formulation desc",
+                                    "jcr:lastModified": "Thu Sep 16 2021 09:30:34 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/formulation"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "product-3": {
+            "jcr:primaryType": "cq:Page",
+            "jcr:createdBy": "admin",
+            "jcr:created": "Wed Sep 15 2021 12:57:40 GMT+0200",
+            "jcr:content": {
+                "jcr:primaryType": "cq:PageContent",
+                "jcr:createdBy": "admin",
+                "jcr:title": "Product 3",
+                "cq:template": "/conf/contentauthoring/settings/wcm/templates/iv-compatibility-product",
+                "jcr:created": "Wed Sep 15 2021 12:57:40 GMT+0200",
+                "cq:lastModified": "Wed Sep 15 2021 12:58:43 GMT+0200",
+                "sling:resourceType": "contentauthoring/components/ivcompatibility/structure/page",
+                "cq:allowedTemplates": [
+                    "-"
+                ],
+                "cq:lastModifiedBy": "admin",
+                "root": {
+                    "jcr:primaryType": "nt:unstructured",
+                    "layout": "responsiveGrid",
+                    "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                    "container": {
+                        "jcr:primaryType": "nt:unstructured",
+                        "layout": "responsiveGrid",
+                        "sling:resourceType": "contentauthoring/components/commons/layout/container/v1/container",
+                        "substance": {
+                            "jcr:primaryType": "nt:unstructured",
+                            "productMonographId": 1000003,
+                            "lexiconSubstanceSolutionReferencePaths": "/etc/import-data/solution-product-lookup/00004",
+                            "reconstitutionReferences": "/content/mdx-cem/citation/unit-tests/citation-1",
+                            "jcr:lastModifiedBy": "admin",
+                            "substanceTradeNames": [
+                                "tradename 1 product 3",
+                                "tradename 2 product 3"
+                            ],
+                            "jcr:lastModified": "Wed Sep 15 2021 12:58:05 GMT+0200",
+                            "sling:resourceType": "contentauthoring/components/ivcompatibility/content/substance",
+                            "formulationType": "Combination-Substance",
+                            "substanceType": "Soln",
+                            "alternativeNames": [
+                                "product 3 alternative name 1",
+                                "",
+                                "product 3 alternative name 2"
+                            ],
+                            "container": {
+                                "jcr:primaryType": "nt:unstructured",
+                                "layout": "responsiveGrid",
+                                "sling:resourceType": "contentauthoring/components/ivcompatibility/layout/substance-container",
+                                "formulation": {
+                                    "jcr:primaryType": "nt:unstructured",
+                                    "displayFormulation": "true",
+                                    "jcr:lastModifiedBy": "admin",
+                                    "addPhDetails": "true",
+                                    "phMax": "pH Max",
+                                    "phMin": "pH Min",
+                                    "phEffects": "pH Effects",
+                                    "formulationType": "Drug",
+                                    "formulationDescription": "formulation description",
+                                    "formulationTradenames": "tradename",
+                                    "jcr:lastModified": "Wed Sep 15 2021 12:58:43 GMT+0200",
+                                    "sling:resourceType": "contentauthoring/components/ivcompatibility/content/formulation",
+                                    "osmolality": "Osmolality",
+                                    "osmolalityReferences": [
+                                        "/content/mdx-cem/citation/unit-tests/citation-1",
+                                        "/content/mdx-cem/citation/unit-tests/citation-3"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

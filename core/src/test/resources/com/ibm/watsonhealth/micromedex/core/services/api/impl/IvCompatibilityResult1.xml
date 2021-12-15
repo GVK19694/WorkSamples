@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot>
+    <ResultRecord>
+        <ResultId>1000000</ResultId>
+        <CitationCode>64165</CitationCode>
+        <CitationAuthor>First Author, second author, Et al</CitationAuthor>
+        <CitationTitle>Title Citation 1</CitationTitle>
+        <CitationJournal>c1</CitationJournal>
+        <CitationYear>1.1.2021</CitationYear>
+        <CitationVolume>Volume Issue Citation 2</CitationVolume>
+        <CitationPages>100</CitationPages>
+        <ResultDescription>Dextrose 5% in lactated Ringers10ml-Year aspirin regimen began [Date]10 ml sec1</ResultDescription>
+        <ReferenceID>64165</ReferenceID>
+        <ProductID>1000000</ProductID>
+        <PrimaryAgent>Dextrose 5% in lactated Ringers</PrimaryAgent>
+        <PrimaryAgentID>1000000</PrimaryAgentID>
+        <PrimaryAgentVehicleID/>
+        <PrimaryAgentTradeNames>prim trade name</PrimaryAgentTradeNames>
+        <PrimaryAgentManufacturerName>prim manufacturer</PrimaryAgentManufacturerName>
+        <PrimaryAgentConcentration/>
+        <PrimaryAgentConcentrationUnits>10ml</PrimaryAgentConcentrationUnits>
+        <PrimaryAgentVehicle/>
+        <PrimaryAgentOtherNames/>
+        <PrimaryAgentPHRange/>
+        <SecondaryAgent>Year aspirin regimen began [Date]</SecondaryAgent>
+        <SecondaryAgentID>1000001</SecondaryAgentID>
+        <SecondaryAgentVehicleID/>
+        <SecondaryAgentTradeNames>sec1 trade name</SecondaryAgentTradeNames>
+        <SecondaryAgentConcentration/>
+        <SecondaryAgentManufacturerName>sec1 manufactureer</SecondaryAgentManufacturerName>
+        <SecondaryAgentConcentrationUnits>10 ml sec1</SecondaryAgentConcentrationUnits>
+        <SecondaryAgentVehicle/>
+        <SecondaryAgentOtherNames/>
+        <SecondaryAgentPHRange/>
+        <Container>sec1 container</Container>
+        <StorageConditions>sec1 storage</StorageConditions>
+        <Methods>sec1 method</Methods>
+        <StudyPeriod>sec1 study period</StudyPeriod>
+        <CompatibilityCode>C</CompatibilityCode>
+        <PhysicalCompatibility>phys comp</PhysicalCompatibility>
+        <ChemicalStability>chem stab</ChemicalStability>
+        <ResultType>Admix</ResultType>
+        <Notations>record notes</Notations>
+        <Solution>3% Amino acid, 3% glycerine injection with electrolytes</Solution>
+        <SolutionID>1390</SolutionID>
+        <SolutionManufacturerName>solution compatibility manufacturer</SolutionManufacturerName>
+        <RedbookData derived="true">
+            <primaryAgent>
+                <name>Dextrose 5% in lactated Ringers</name>
+                <gfc>
+                    <id>114451</id>
+                    <type>SOLN</type>
+                    <name>Dextrose 5% in lactated Ringers</name>
+                    <ndc>00264-1751-00</ndc>
+                    <ndc>00264-1751-10</ndc>
+                </gfc>
+                <gfc>
+                    <id>112912</id>
+                    <type>SOLN</type>
+                    <name>Dextrose 5% in lactated Ringers</name>
+                    <ndc>00074-7929-03</ndc>
+                    <ndc>00074-7929-09</ndc>
+                    <ndc>00264-3510-55</ndc>
+                    <ndc>00264-3511-55</ndc>
+                    <ndc>00264-7751-00</ndc>
+                    <ndc>00264-7751-10</ndc>
+                    <ndc>00264-7751-20</ndc>
+                    <ndc>00338-0125-03</ndc>
+                    <ndc>00338-0125-04</ndc>
+                    <ndc>00338-6306-04</ndc>
+                    <ndc>00409-7929-03</ndc>
+                    <ndc>00409-7929-09</ndc>
+                    <ndc>00990-7929-03</ndc>
+                    <ndc>00990-7929-09</ndc>
+                </gfc>
+            </primaryAgent>
+            <secondaryAgent/>
+            <primarySolution/>
+            <secondarySolution/>
+            <solution>
+                <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                <gfc>
+                    <id>112996</id>
+                    <type>SOLN</type>
+                    <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                    <ndc>00264-1915-00</ndc>
+                    <ndc>00264-1915-07</ndc>
+                </gfc>
+            </solution>
+        </RedbookData>
+        <LastUpdate>2021-08-26T13:48:26</LastUpdate>
+        <AemPath>/content/mdx-cem/iv-compatibility/records/unit-tests/admixture/jcr:content/root/container/primary_drug/container/concentration/container/compatibility/container/secondary_drug</AemPath>
+    </ResultRecord>
+    <ResultRecord>
+        <ResultId>1000001</ResultId>
+        <CitationCode>64165</CitationCode>
+        <CitationAuthor>First Author, second author, Et al</CitationAuthor>
+        <CitationTitle>Title Citation 1</CitationTitle>
+        <CitationJournal>c1</CitationJournal>
+        <CitationYear>1.1.2021</CitationYear>
+        <CitationVolume>Volume Issue Citation 2</CitationVolume>
+        <CitationPages>100</CitationPages>
+        <ResultDescription>Dextrose 5% in lactated Ringers10ml-drug1/drug210 ml sec2</ResultDescription>
+        <ReferenceID>64165</ReferenceID>
+        <ProductID>1000000</ProductID>
+        <PrimaryAgent>Dextrose 5% in lactated Ringers</PrimaryAgent>
+        <PrimaryAgentID>1000000</PrimaryAgentID>
+        <PrimaryAgentVehicleID/>
+        <PrimaryAgentTradeNames>prim trade name</PrimaryAgentTradeNames>
+        <PrimaryAgentManufacturerName>prim manufacturer</PrimaryAgentManufacturerName>
+        <PrimaryAgentConcentration/>
+        <PrimaryAgentConcentrationUnits>10ml</PrimaryAgentConcentrationUnits>
+        <PrimaryAgentVehicle/>
+        <PrimaryAgentOtherNames/>
+        <PrimaryAgentPHRange/>
+        <SecondaryAgent>drug1/drug2</SecondaryAgent>
+        <SecondaryAgentID/>
+        <SecondaryAgentVehicleID/>
+        <SecondaryAgentTradeNames>sec2 trade name</SecondaryAgentTradeNames>
+        <SecondaryAgentConcentration/>
+        <SecondaryAgentManufacturerName>sec2 manufactureer</SecondaryAgentManufacturerName>
+        <SecondaryAgentConcentrationUnits>10 ml sec2</SecondaryAgentConcentrationUnits>
+        <SecondaryAgentVehicle/>
+        <SecondaryAgentOtherNames>altdrug1; altdrug2</SecondaryAgentOtherNames>
+        <SecondaryAgentPHRange/>
+        <Container>prim container</Container>
+        <StorageConditions>prim storage</StorageConditions>
+        <Methods>prim method</Methods>
+        <StudyPeriod>prim study period</StudyPeriod>
+        <CompatibilityCode>C</CompatibilityCode>
+        <PhysicalCompatibility>phys comp</PhysicalCompatibility>
+        <ChemicalStability>chem stab</ChemicalStability>
+        <ResultType>Admix</ResultType>
+        <Notations>record notes</Notations>
+        <Solution>3% Amino acid, 3% glycerine injection with electrolytes</Solution>
+        <SolutionID>1390</SolutionID>
+        <SolutionManufacturerName>solution compatibility manufacturer</SolutionManufacturerName>
+        <RedbookData derived="true">
+            <primaryAgent>
+                <name>Dextrose 5% in lactated Ringers</name>
+                <gfc>
+                    <id>114451</id>
+                    <type>SOLN</type>
+                    <name>Dextrose 5% in lactated Ringers</name>
+                    <ndc>00264-1751-00</ndc>
+                    <ndc>00264-1751-10</ndc>
+                </gfc>
+                <gfc>
+                    <id>112912</id>
+                    <type>SOLN</type>
+                    <name>Dextrose 5% in lactated Ringers</name>
+                    <ndc>00074-7929-03</ndc>
+                    <ndc>00074-7929-09</ndc>
+                    <ndc>00264-3510-55</ndc>
+                    <ndc>00264-3511-55</ndc>
+                    <ndc>00264-7751-00</ndc>
+                    <ndc>00264-7751-10</ndc>
+                    <ndc>00264-7751-20</ndc>
+                    <ndc>00338-0125-03</ndc>
+                    <ndc>00338-0125-04</ndc>
+                    <ndc>00338-6306-04</ndc>
+                    <ndc>00409-7929-03</ndc>
+                    <ndc>00409-7929-09</ndc>
+                    <ndc>00990-7929-03</ndc>
+                    <ndc>00990-7929-09</ndc>
+                </gfc>
+            </primaryAgent>
+            <secondaryAgent/>
+            <primarySolution/>
+            <secondarySolution/>
+            <solution>
+                <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                <gfc>
+                    <id>112996</id>
+                    <type>SOLN</type>
+                    <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                    <ndc>00264-1915-00</ndc>
+                    <ndc>00264-1915-07</ndc>
+                </gfc>
+            </solution>
+        </RedbookData>
+        <LastUpdate>2021-08-26T13:48:26</LastUpdate>
+        <AemPath>/content/mdx-cem/iv-compatibility/records/unit-tests/admixture/jcr:content/root/container/primary_drug/container/concentration/container/compatibility/container/secondary_drug_copy</AemPath>
+    </ResultRecord>
+    <ResultRecord>
+        <ResultId>1000002</ResultId>
+        <CitationCode>64165</CitationCode>
+        <CitationAuthor>First Author, second author, Et al</CitationAuthor>
+        <CitationTitle>Title Citation 1</CitationTitle>
+        <CitationJournal>c1</CitationJournal>
+        <CitationYear>1.1.2021</CitationYear>
+        <CitationVolume>Volume Issue Citation 2</CitationVolume>
+        <CitationPages>100</CitationPages>
+        <ResultDescription>Fat Emulsion/Fish Oil/Soybean Oil10ml-Dextrose 5% in lactated Ringers10 ml sec1</ResultDescription>
+        <ReferenceID>64165</ReferenceID>
+        <ProductID/>
+        <PrimaryAgent>Fat Emulsion/Fish Oil/Soybean Oil</PrimaryAgent>
+        <PrimaryAgentID/>
+        <PrimaryAgentVehicleID>1390</PrimaryAgentVehicleID>
+        <PrimaryAgentTradeNames>prim trade name</PrimaryAgentTradeNames>
+        <PrimaryAgentManufacturerName>prim manufacturer</PrimaryAgentManufacturerName>
+        <PrimaryAgentConcentration/>
+        <PrimaryAgentConcentrationUnits>10ml</PrimaryAgentConcentrationUnits>
+        <PrimaryAgentVehicle>3% Amino acid, 3% glycerine injection with electrolytes</PrimaryAgentVehicle>
+        <PrimaryAgentOtherNames/>
+        <PrimaryAgentPHRange/>
+        <SecondaryAgent>Dextrose 5% in lactated Ringers</SecondaryAgent>
+        <SecondaryAgentID>1000000</SecondaryAgentID>
+        <SecondaryAgentVehicleID>1390</SecondaryAgentVehicleID>
+        <SecondaryAgentTradeNames>sec1 trade name</SecondaryAgentTradeNames>
+        <SecondaryAgentConcentration/>
+        <SecondaryAgentManufacturerName>sec1 manufactureer</SecondaryAgentManufacturerName>
+        <SecondaryAgentConcentrationUnits>10 ml sec1</SecondaryAgentConcentrationUnits>
+        <SecondaryAgentVehicle>3% Amino acid, 3% glycerine injection with electrolytes</SecondaryAgentVehicle>
+        <SecondaryAgentOtherNames/>
+        <SecondaryAgentPHRange/>
+        <Container>sec1 container</Container>
+        <StorageConditions>sec1 storage</StorageConditions>
+        <Methods>sec1 method</Methods>
+        <StudyPeriod>sec1 study period</StudyPeriod>
+        <CompatibilityCode>C</CompatibilityCode>
+        <PhysicalCompatibility>phys comp</PhysicalCompatibility>
+        <ChemicalStability>chem stab</ChemicalStability>
+        <ResultType>Ysite</ResultType>
+        <Notations>record notes</Notations>
+        <Solution/>
+        <SolutionID/>
+        <SolutionManufacturerName/>
+        <RedbookData derived="true">
+            <primaryAgent>
+                <name>Fat Emulsion-Fish Oil-Soybean Oil</name>
+                <gfc>
+                    <id>136499</id>
+                    <type>DRUG</type>
+                    <name>Fat Emulsion-Fish Oil-Soybean Oil</name>
+                    <ndc>63323-0820-00</ndc>
+                    <ndc>63323-0820-01</ndc>
+                    <ndc>63323-0820-03</ndc>
+                    <ndc>63323-0820-04</ndc>
+                    <ndc>63323-0820-05</ndc>
+                    <ndc>63323-0820-10</ndc>
+                    <ndc>63323-0820-50</ndc>
+                    <ndc>63323-0820-74</ndc>
+                </gfc>
+            </primaryAgent>
+            <secondaryAgent>
+                <name>Dextrose 5% in lactated Ringers</name>
+                <gfc>
+                    <id>114451</id>
+                    <type>SOLN</type>
+                    <name>Dextrose 5% in lactated Ringers</name>
+                    <ndc>00264-1751-00</ndc>
+                    <ndc>00264-1751-10</ndc>
+                </gfc>
+                <gfc>
+                    <id>112912</id>
+                    <type>SOLN</type>
+                    <name>Dextrose 5% in lactated Ringers</name>
+                    <ndc>00074-7929-03</ndc>
+                    <ndc>00074-7929-09</ndc>
+                    <ndc>00264-3510-55</ndc>
+                    <ndc>00264-3511-55</ndc>
+                    <ndc>00264-7751-00</ndc>
+                    <ndc>00264-7751-10</ndc>
+                    <ndc>00264-7751-20</ndc>
+                    <ndc>00338-0125-03</ndc>
+                    <ndc>00338-0125-04</ndc>
+                    <ndc>00338-6306-04</ndc>
+                    <ndc>00409-7929-03</ndc>
+                    <ndc>00409-7929-09</ndc>
+                    <ndc>00990-7929-03</ndc>
+                    <ndc>00990-7929-09</ndc>
+                </gfc>
+            </secondaryAgent>
+            <primarySolution>
+                <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                <gfc>
+                    <id>112996</id>
+                    <type>SOLN</type>
+                    <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                    <ndc>00264-1915-00</ndc>
+                    <ndc>00264-1915-07</ndc>
+                </gfc>
+            </primarySolution>
+            <secondarySolution>
+                <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                <gfc>
+                    <id>112996</id>
+                    <type>SOLN</type>
+                    <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                    <ndc>00264-1915-00</ndc>
+                    <ndc>00264-1915-07</ndc>
+                </gfc>
+            </secondarySolution>
+            <solution/>
+        </RedbookData>
+        <LastUpdate>2021-08-26T13:49:12</LastUpdate>
+        <AemPath>/content/mdx-cem/iv-compatibility/records/unit-tests/y-site_syringe/jcr:content/root/container/primary_drug/container/concentration/container/compatibility/container/secondary_drug</AemPath>
+    </ResultRecord>
+    <ResultRecord>
+        <ResultId>1000003</ResultId>
+        <CitationCode>64165</CitationCode>
+        <CitationAuthor>First Author, second author, Et al</CitationAuthor>
+        <CitationTitle>Title Citation 1</CitationTitle>
+        <CitationJournal>c1</CitationJournal>
+        <CitationYear>1.1.2021</CitationYear>
+        <CitationVolume>Volume Issue Citation 2</CitationVolume>
+        <CitationPages>100</CitationPages>
+        <ResultDescription>Fat Emulsion/Fish Oil/Soybean Oil10ml-Fat Emulsion/Fish Oil/Soybean Oil10 ml sec2</ResultDescription>
+        <ReferenceID>64165</ReferenceID>
+        <ProductID/>
+        <PrimaryAgent>Fat Emulsion/Fish Oil/Soybean Oil</PrimaryAgent>
+        <PrimaryAgentID/>
+        <PrimaryAgentVehicleID>1390</PrimaryAgentVehicleID>
+        <PrimaryAgentTradeNames>prim trade name</PrimaryAgentTradeNames>
+        <PrimaryAgentManufacturerName>prim manufacturer</PrimaryAgentManufacturerName>
+        <PrimaryAgentConcentration/>
+        <PrimaryAgentConcentrationUnits>10ml</PrimaryAgentConcentrationUnits>
+        <PrimaryAgentVehicle>3% Amino acid, 3% glycerine injection with electrolytes</PrimaryAgentVehicle>
+        <PrimaryAgentOtherNames/>
+        <PrimaryAgentPHRange/>
+        <SecondaryAgent>Fat Emulsion/Fish Oil/Soybean Oil</SecondaryAgent>
+        <SecondaryAgentID/>
+        <SecondaryAgentVehicleID>1390</SecondaryAgentVehicleID>
+        <SecondaryAgentTradeNames>sec2 trade name</SecondaryAgentTradeNames>
+        <SecondaryAgentConcentration/>
+        <SecondaryAgentManufacturerName>sec2 manufactureer</SecondaryAgentManufacturerName>
+        <SecondaryAgentConcentrationUnits>10 ml sec2</SecondaryAgentConcentrationUnits>
+        <SecondaryAgentVehicle>3% Amino acid, 3% glycerine injection with electrolytes</SecondaryAgentVehicle>
+        <SecondaryAgentOtherNames/>
+        <SecondaryAgentPHRange/>
+        <Container>prim container</Container>
+        <StorageConditions>prim storage</StorageConditions>
+        <Methods>prim method</Methods>
+        <StudyPeriod>prim study period</StudyPeriod>
+        <CompatibilityCode>C</CompatibilityCode>
+        <PhysicalCompatibility>phys comp</PhysicalCompatibility>
+        <ChemicalStability>chem stab</ChemicalStability>
+        <ResultType>Ysite</ResultType>
+        <Notations>record notes</Notations>
+        <Solution/>
+        <SolutionID/>
+        <SolutionManufacturerName/>
+        <RedbookData derived="true">
+            <primaryAgent>
+                <name>Fat Emulsion-Fish Oil-Soybean Oil</name>
+                <gfc>
+                    <id>136499</id>
+                    <type>DRUG</type>
+                    <name>Fat Emulsion-Fish Oil-Soybean Oil</name>
+                    <ndc>63323-0820-00</ndc>
+                    <ndc>63323-0820-01</ndc>
+                    <ndc>63323-0820-03</ndc>
+                    <ndc>63323-0820-04</ndc>
+                    <ndc>63323-0820-05</ndc>
+                    <ndc>63323-0820-10</ndc>
+                    <ndc>63323-0820-50</ndc>
+                    <ndc>63323-0820-74</ndc>
+                </gfc>
+            </primaryAgent>
+            <secondaryAgent>
+                <name>Fat Emulsion-Fish Oil-Soybean Oil</name>
+                <gfc>
+                    <id>136499</id>
+                    <type>DRUG</type>
+                    <name>Fat Emulsion-Fish Oil-Soybean Oil</name>
+                    <ndc>63323-0820-00</ndc>
+                    <ndc>63323-0820-01</ndc>
+                    <ndc>63323-0820-03</ndc>
+                    <ndc>63323-0820-04</ndc>
+                    <ndc>63323-0820-05</ndc>
+                    <ndc>63323-0820-10</ndc>
+                    <ndc>63323-0820-50</ndc>
+                    <ndc>63323-0820-74</ndc>
+                </gfc>
+            </secondaryAgent>
+            <primarySolution>
+                <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                <gfc>
+                    <id>112996</id>
+                    <type>SOLN</type>
+                    <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                    <ndc>00264-1915-00</ndc>
+                    <ndc>00264-1915-07</ndc>
+                </gfc>
+            </primarySolution>
+            <secondarySolution>
+                <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                <gfc>
+                    <id>112996</id>
+                    <type>SOLN</type>
+                    <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                    <ndc>00264-1915-00</ndc>
+                    <ndc>00264-1915-07</ndc>
+                </gfc>
+            </secondarySolution>
+            <solution/>
+        </RedbookData>
+        <LastUpdate>2021-08-26T13:49:12</LastUpdate>
+        <AemPath>/content/mdx-cem/iv-compatibility/records/unit-tests/y-site_syringe/jcr:content/root/container/primary_drug/container/concentration/container/compatibility/container/secondary_drug_copy</AemPath>
+    </ResultRecord>
+    <ResultRecord>
+        <ResultId>1000004</ResultId>
+        <CitationCode>64165</CitationCode>
+        <CitationAuthor>First Author, second author, Et al</CitationAuthor>
+        <CitationTitle>Title Citation 1</CitationTitle>
+        <CitationJournal>c1</CitationJournal>
+        <CitationYear>1.1.2021</CitationYear>
+        <CitationVolume>Volume Issue Citation 2</CitationVolume>
+        <CitationPages>100</CitationPages>
+        <ResultDescription>Fat Emulsion/Fish Oil/Soybean Oil10ml-Dextrose 5% in lactated Ringers10 ml sec1</ResultDescription>
+        <ReferenceID>64165</ReferenceID>
+        <ProductID/>
+        <PrimaryAgent>Fat Emulsion/Fish Oil/Soybean Oil</PrimaryAgent>
+        <PrimaryAgentID/>
+        <PrimaryAgentVehicleID>1390</PrimaryAgentVehicleID>
+        <PrimaryAgentTradeNames>prim trade name</PrimaryAgentTradeNames>
+        <PrimaryAgentManufacturerName>prim manufacturer</PrimaryAgentManufacturerName>
+        <PrimaryAgentConcentration/>
+        <PrimaryAgentConcentrationUnits>10ml</PrimaryAgentConcentrationUnits>
+        <PrimaryAgentVehicle>3% Amino acid, 3% glycerine injection with electrolytes</PrimaryAgentVehicle>
+        <PrimaryAgentOtherNames/>
+        <PrimaryAgentPHRange/>
+        <SecondaryAgent>Dextrose 5% in lactated Ringers</SecondaryAgent>
+        <SecondaryAgentID>1000000</SecondaryAgentID>
+        <SecondaryAgentVehicleID>1390</SecondaryAgentVehicleID>
+        <SecondaryAgentTradeNames>sec1 trade name</SecondaryAgentTradeNames>
+        <SecondaryAgentConcentration/>
+        <SecondaryAgentManufacturerName>sec1 manufactureer</SecondaryAgentManufacturerName>
+        <SecondaryAgentConcentrationUnits>10 ml sec1</SecondaryAgentConcentrationUnits>
+        <SecondaryAgentVehicle>3% Amino acid, 3% glycerine injection with electrolytes</SecondaryAgentVehicle>
+        <SecondaryAgentOtherNames/>
+        <SecondaryAgentPHRange/>
+        <Container>sec1 container</Container>
+        <StorageConditions>sec1 storage</StorageConditions>
+        <Methods>sec1 method</Methods>
+        <StudyPeriod>sec1 study period</StudyPeriod>
+        <CompatibilityCode>C</CompatibilityCode>
+        <PhysicalCompatibility>phys comp</PhysicalCompatibility>
+        <ChemicalStability>chem stab</ChemicalStability>
+        <ResultType>Syr</ResultType>
+        <Notations>record notes</Notations>
+        <Solution/>
+        <SolutionID/>
+        <SolutionManufacturerName/>
+        <RedbookData derived="true">
+            <primaryAgent>
+                <name>Fat Emulsion-Fish Oil-Soybean Oil</name>
+                <gfc>
+                    <id>136499</id>
+                    <type>DRUG</type>
+                    <name>Fat Emulsion-Fish Oil-Soybean Oil</name>
+                    <ndc>63323-0820-00</ndc>
+                    <ndc>63323-0820-01</ndc>
+                    <ndc>63323-0820-03</ndc>
+                    <ndc>63323-0820-04</ndc>
+                    <ndc>63323-0820-05</ndc>
+                    <ndc>63323-0820-10</ndc>
+                    <ndc>63323-0820-50</ndc>
+                    <ndc>63323-0820-74</ndc>
+                </gfc>
+            </primaryAgent>
+            <secondaryAgent>
+                <name>Dextrose 5% in lactated Ringers</name>
+                <gfc>
+                    <id>114451</id>
+                    <type>SOLN</type>
+                    <name>Dextrose 5% in lactated Ringers</name>
+                    <ndc>00264-1751-00</ndc>
+                    <ndc>00264-1751-10</ndc>
+                </gfc>
+                <gfc>
+                    <id>112912</id>
+                    <type>SOLN</type>
+                    <name>Dextrose 5% in lactated Ringers</name>
+                    <ndc>00074-7929-03</ndc>
+                    <ndc>00074-7929-09</ndc>
+                    <ndc>00264-3510-55</ndc>
+                    <ndc>00264-3511-55</ndc>
+                    <ndc>00264-7751-00</ndc>
+                    <ndc>00264-7751-10</ndc>
+                    <ndc>00264-7751-20</ndc>
+                    <ndc>00338-0125-03</ndc>
+                    <ndc>00338-0125-04</ndc>
+                    <ndc>00338-6306-04</ndc>
+                    <ndc>00409-7929-03</ndc>
+                    <ndc>00409-7929-09</ndc>
+                    <ndc>00990-7929-03</ndc>
+                    <ndc>00990-7929-09</ndc>
+                </gfc>
+            </secondaryAgent>
+            <primarySolution>
+                <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                <gfc>
+                    <id>112996</id>
+                    <type>SOLN</type>
+                    <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                    <ndc>00264-1915-00</ndc>
+                    <ndc>00264-1915-07</ndc>
+                </gfc>
+            </primarySolution>
+            <secondarySolution>
+                <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                <gfc>
+                    <id>112996</id>
+                    <type>SOLN</type>
+                    <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                    <ndc>00264-1915-00</ndc>
+                    <ndc>00264-1915-07</ndc>
+                </gfc>
+            </secondarySolution>
+            <solution/>
+        </RedbookData>
+        <LastUpdate>2021-08-26T13:49:12</LastUpdate>
+        <AemPath>/content/mdx-cem/iv-compatibility/records/unit-tests/y-site_syringe/jcr:content/root/container/primary_drug/container/concentration/container/compatibility_copy/container/secondary_drug</AemPath>
+    </ResultRecord>
+    <ResultRecord>
+        <ResultId>1000005</ResultId>
+        <CitationCode>64165</CitationCode>
+        <CitationAuthor>First Author, second author, Et al</CitationAuthor>
+        <CitationTitle>Title Citation 1</CitationTitle>
+        <CitationJournal>c1</CitationJournal>
+        <CitationYear>1.1.2021</CitationYear>
+        <CitationVolume>Volume Issue Citation 2</CitationVolume>
+        <CitationPages>100</CitationPages>
+        <ResultDescription>Fat Emulsion/Fish Oil/Soybean Oil10ml-Dextrose 5% in lactated Ringers10 ml sec2</ResultDescription>
+        <ReferenceID>64165</ReferenceID>
+        <ProductID/>
+        <PrimaryAgent>Fat Emulsion/Fish Oil/Soybean Oil</PrimaryAgent>
+        <PrimaryAgentID/>
+        <PrimaryAgentVehicleID>1390</PrimaryAgentVehicleID>
+        <PrimaryAgentTradeNames>prim trade name</PrimaryAgentTradeNames>
+        <PrimaryAgentManufacturerName>prim manufacturer</PrimaryAgentManufacturerName>
+        <PrimaryAgentConcentration/>
+        <PrimaryAgentConcentrationUnits>10ml</PrimaryAgentConcentrationUnits>
+        <PrimaryAgentVehicle>3% Amino acid, 3% glycerine injection with electrolytes</PrimaryAgentVehicle>
+        <PrimaryAgentOtherNames/>
+        <PrimaryAgentPHRange/>
+        <SecondaryAgent>Dextrose 5% in lactated Ringers</SecondaryAgent>
+        <SecondaryAgentID>1000000</SecondaryAgentID>
+        <SecondaryAgentVehicleID>1390</SecondaryAgentVehicleID>
+        <SecondaryAgentTradeNames>sec2 trade name</SecondaryAgentTradeNames>
+        <SecondaryAgentConcentration/>
+        <SecondaryAgentManufacturerName>sec2 manufactureer</SecondaryAgentManufacturerName>
+        <SecondaryAgentConcentrationUnits>10 ml sec2</SecondaryAgentConcentrationUnits>
+        <SecondaryAgentVehicle>3% Amino acid, 3% glycerine injection with electrolytes</SecondaryAgentVehicle>
+        <SecondaryAgentOtherNames/>
+        <SecondaryAgentPHRange/>
+        <Container>prim container</Container>
+        <StorageConditions>prim storage</StorageConditions>
+        <Methods>prim method</Methods>
+        <StudyPeriod>prim study period</StudyPeriod>
+        <CompatibilityCode>C</CompatibilityCode>
+        <PhysicalCompatibility>phys comp</PhysicalCompatibility>
+        <ChemicalStability>chem stab</ChemicalStability>
+        <ResultType>Syr</ResultType>
+        <Notations>record notes</Notations>
+        <Solution/>
+        <SolutionID/>
+        <SolutionManufacturerName/>
+        <RedbookData derived="true">
+            <primaryAgent>
+                <name>Fat Emulsion-Fish Oil-Soybean Oil</name>
+                <gfc>
+                    <id>136499</id>
+                    <type>DRUG</type>
+                    <name>Fat Emulsion-Fish Oil-Soybean Oil</name>
+                    <ndc>63323-0820-00</ndc>
+                    <ndc>63323-0820-01</ndc>
+                    <ndc>63323-0820-03</ndc>
+                    <ndc>63323-0820-04</ndc>
+                    <ndc>63323-0820-05</ndc>
+                    <ndc>63323-0820-10</ndc>
+                    <ndc>63323-0820-50</ndc>
+                    <ndc>63323-0820-74</ndc>
+                </gfc>
+            </primaryAgent>
+            <secondaryAgent>
+                <name>Dextrose 5% in lactated Ringers</name>
+                <gfc>
+                    <id>114451</id>
+                    <type>SOLN</type>
+                    <name>Dextrose 5% in lactated Ringers</name>
+                    <ndc>00264-1751-00</ndc>
+                    <ndc>00264-1751-10</ndc>
+                </gfc>
+                <gfc>
+                    <id>112912</id>
+                    <type>SOLN</type>
+                    <name>Dextrose 5% in lactated Ringers</name>
+                    <ndc>00074-7929-03</ndc>
+                    <ndc>00074-7929-09</ndc>
+                    <ndc>00264-3510-55</ndc>
+                    <ndc>00264-3511-55</ndc>
+                    <ndc>00264-7751-00</ndc>
+                    <ndc>00264-7751-10</ndc>
+                    <ndc>00264-7751-20</ndc>
+                    <ndc>00338-0125-03</ndc>
+                    <ndc>00338-0125-04</ndc>
+                    <ndc>00338-6306-04</ndc>
+                    <ndc>00409-7929-03</ndc>
+                    <ndc>00409-7929-09</ndc>
+                    <ndc>00990-7929-03</ndc>
+                    <ndc>00990-7929-09</ndc>
+                </gfc>
+            </secondaryAgent>
+            <primarySolution>
+                <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                <gfc>
+                    <id>112996</id>
+                    <type>SOLN</type>
+                    <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                    <ndc>00264-1915-00</ndc>
+                    <ndc>00264-1915-07</ndc>
+                </gfc>
+            </primarySolution>
+            <secondarySolution>
+                <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                <gfc>
+                    <id>112996</id>
+                    <type>SOLN</type>
+                    <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                    <ndc>00264-1915-00</ndc>
+                    <ndc>00264-1915-07</ndc>
+                </gfc>
+            </secondarySolution>
+            <solution/>
+        </RedbookData>
+        <LastUpdate>2021-08-26T13:49:12</LastUpdate>
+        <AemPath>/content/mdx-cem/iv-compatibility/records/unit-tests/y-site_syringe/jcr:content/root/container/primary_drug/container/concentration/container/compatibility_copy/container/secondary_drug_copy</AemPath>
+    </ResultRecord>
+    <ResultRecord>
+        <ResultId>2000003</ResultId>
+        <CitationCode>64165</CitationCode>
+        <CitationAuthor>First Author, second author, Et al</CitationAuthor>
+        <CitationTitle>Title Citation 1</CitationTitle>
+        <CitationJournal>c1</CitationJournal>
+        <CitationYear>1.1.2021</CitationYear>
+        <CitationVolume>Volume Issue Citation 2</CitationVolume>
+        <CitationPages>100</CitationPages>
+        <ResultDescription>Dextrose 5% in lactated Ringers10ml:3% Amino acid, 3% glycerine injection with electrolytes</ResultDescription>
+        <ReferenceID>64165</ReferenceID>
+        <ProductID>1000000</ProductID>
+        <PrimaryAgent>Dextrose 5% in lactated Ringers</PrimaryAgent>
+        <PrimaryAgentID>1000000</PrimaryAgentID>
+        <PrimaryAgentVehicleID/>
+        <PrimaryAgentTradeNames>prim trade name</PrimaryAgentTradeNames>
+        <PrimaryAgentManufacturerName>prim manufacturer</PrimaryAgentManufacturerName>
+        <PrimaryAgentConcentration/>
+        <PrimaryAgentConcentrationUnits>10ml</PrimaryAgentConcentrationUnits>
+        <PrimaryAgentVehicle/>
+        <PrimaryAgentOtherNames/>
+        <PrimaryAgentPHRange/>
+        <SecondaryAgent/>
+        <SecondaryAgentID/>
+        <SecondaryAgentVehicleID/>
+        <SecondaryAgentTradeNames/>
+        <SecondaryAgentConcentration/>
+        <SecondaryAgentManufacturerName/>
+        <SecondaryAgentConcentrationUnits/>
+        <SecondaryAgentVehicle/>
+        <SecondaryAgentOtherNames/>
+        <SecondaryAgentPHRange/>
+        <Container>prim container</Container>
+        <StorageConditions>prim storage</StorageConditions>
+        <Methods>prim method</Methods>
+        <StudyPeriod>prim study period</StudyPeriod>
+        <CompatibilityCode>C</CompatibilityCode>
+        <PhysicalCompatibility>phys comp</PhysicalCompatibility>
+        <ChemicalStability>chem stab</ChemicalStability>
+        <ResultType>Soln</ResultType>
+        <Notations>record notes</Notations>
+        <Solution>3% Amino acid, 3% glycerine injection with electrolytes</Solution>
+        <SolutionID>1390</SolutionID>
+        <SolutionManufacturerName>solution compatibility manufacturer</SolutionManufacturerName>
+        <RedbookData derived="true">
+            <primaryAgent>
+                <name>Dextrose 5% in lactated Ringers</name>
+                <gfc>
+                    <id>114451</id>
+                    <type>SOLN</type>
+                    <name>Dextrose 5% in lactated Ringers</name>
+                    <ndc>00264-1751-00</ndc>
+                    <ndc>00264-1751-10</ndc>
+                </gfc>
+                <gfc>
+                    <id>112912</id>
+                    <type>SOLN</type>
+                    <name>Dextrose 5% in lactated Ringers</name>
+                    <ndc>00074-7929-03</ndc>
+                    <ndc>00074-7929-09</ndc>
+                    <ndc>00264-3510-55</ndc>
+                    <ndc>00264-3511-55</ndc>
+                    <ndc>00264-7751-00</ndc>
+                    <ndc>00264-7751-10</ndc>
+                    <ndc>00264-7751-20</ndc>
+                    <ndc>00338-0125-03</ndc>
+                    <ndc>00338-0125-04</ndc>
+                    <ndc>00338-6306-04</ndc>
+                    <ndc>00409-7929-03</ndc>
+                    <ndc>00409-7929-09</ndc>
+                    <ndc>00990-7929-03</ndc>
+                    <ndc>00990-7929-09</ndc>
+                </gfc>
+            </primaryAgent>
+            <secondaryAgent/>
+            <primarySolution/>
+            <secondarySolution/>
+            <solution>
+                <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                <gfc>
+                    <id>112996</id>
+                    <type>SOLN</type>
+                    <name>3% Amino acid, 3% glycerine injection with electrolytes</name>
+                    <ndc>00264-1915-00</ndc>
+                    <ndc>00264-1915-07</ndc>
+                </gfc>
+            </solution>
+        </RedbookData>
+        <LastUpdate>2021-08-26T14:17:20</LastUpdate>
+        <AemPath>/content/mdx-cem/iv-compatibility/records/unit-tests/drug-solution/jcr:content/root/container/primary_drug/container/concentration/container/compatibility</AemPath>
+    </ResultRecord>
+</dataroot>

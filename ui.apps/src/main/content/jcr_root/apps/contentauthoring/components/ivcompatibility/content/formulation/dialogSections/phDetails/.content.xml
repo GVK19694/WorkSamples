@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="pH Details"
+          margin="{Boolean}true"
+          sling:resourceType="granite/ui/components/coral/foundation/container">
+    <items jcr:primaryType="nt:unstructured">
+        <add-ph-details
+            jcr:primaryType="nt:unstructured"
+            granite:class="cq-dialog-checkbox-showhide"
+            sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+            name="./addPhDetails"
+            text="Add pH Details"
+            value="true">
+            <granite:data
+                jcr:primaryType="nt:unstructured"
+                cq-dialog-checkbox-showhide-target=".phDetails-showhide-target"/>
+        </add-ph-details>
+        <ph-details
+            jcr:primaryType="nt:unstructured"
+            granite:class="phDetails-showhide-target hide"
+            sling:resourceType="granite/ui/components/coral/foundation/container">
+            <items jcr:primaryType="nt:unstructured">
+                <osmolality
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="Osmolality"
+                    name="./osmolality">
+                </osmolality>
+                <osmolality-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="Osmolality Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./osmolalityReferences"/>
+                </osmolality-references>
+                <ph-min
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="pH min"
+                    name="./phMin"/>
+                <phMin-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="pH Min Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./phMinReferences"/>
+                </phMin-references>
+                <ph-effects
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="pH Effects"
+                    pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                    name="./phEffects"/>
+                <phEffects-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="pH Effects Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./phEffectsReferences"/>
+                </phEffects-references>
+                <ph-max
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="pH max"
+                    name="./phMax"/>
+                <phMax-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="pH max Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./phMaxReferences"/>
+                </phMax-references>
+                <ph-range
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="pH range"
+                    name="./phRange"/>
+                <phRange-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="pH range Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./phRangeReferences"/>
+                </phRange-references>
+                <ph-mean
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                    required="{Boolean}false"
+                    fieldLabel="pH mean"
+                    name="./phMean"/>
+                <phMean-references
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                    fieldLabel="pH mean Reference">
+                    <field
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        rootPath="/content/mdx-cem/citation"
+                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                        name="./phMeanReferences"/>
+                </phMean-references>
+            </items>
+        </ph-details>
+    </items>
+</jcr:root>

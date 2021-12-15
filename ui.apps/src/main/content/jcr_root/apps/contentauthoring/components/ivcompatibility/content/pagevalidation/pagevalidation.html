@@ -1,0 +1,4 @@
+<div data-sly-use.model="com.ibm.watsonhealth.micromedex.core.models.ivcompatibility.Pagevalidation">
+    <sly data-sly-use.validationTemplate="/apps/contentauthoring/components/commons/templates/validation/validation.html"/>
+    <sly data-sly-call="${validationTemplate.validation @ headline=model.title, headlineLevel='1', model=model, resourcepath=resource.parent.parent.path, pagevalidation=true}"/>
+</div>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Primary Drug"
+          extraClientlibs="[solutionSelectBoxCustomFilter,solutionPathValidation]"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/tabs">
+        <items jcr:primaryType="nt:unstructured">
+            <primary-drug
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Primary Drug"
+                sling:resourceType="granite/ui/components/coral/foundation/container"
+                margin="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <columns
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <citation
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                        required="{Boolean}true"
+                                        fieldLabel="Citation"
+                                        rootPath="/content/mdx-cem/citation"
+                                        pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/citation&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                                        name="./citationPath"/>
+                                    <primary-drug-source
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                        granite:class="cq-dialog-dropdown-showhide"
+                                        fieldLabel="Primary Drug Source"
+                                        emptyOption="{Boolean}false"
+                                        required="{Boolean}true"
+                                        name="./primaryDrugSource">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <monograph
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Choose existing Product Monograph"
+                                                value="monograph"/>
+                                            <new
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Create New"
+                                                value="new"/>
+                                        </items>
+                                        <granite:data
+                                            jcr:primaryType="nt:unstructured"
+                                            cq-dialog-dropdown-showhide-target=".primaryDrugSource-showhide-target"/>
+                                    </primary-drug-source>
+                                    <primary-drug-source-monograph-container
+                                        granite:class="primaryDrugSource-showhide-target"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <primary-drug
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                                required="{Boolean}true"
+                                                fieldLabel="Primary Drug"
+                                                rootPath="/content/mdx-cem/iv-compatibility/product-monographs"
+                                                pickerSrc="/mnt/overlay/contentauthoring/dialogfields/pagepathfieldpicker.html?_charset_=utf-8&amp;path={value}&amp;root=/content/mdx-cem/iv-compatibility/product-monographs&amp;filter=hierarchyNotFile&amp;selectionCount=single"
+                                                name="./primaryDrugPath">
+                                            </primary-drug>
+                                        </items>
+                                        <granite:data
+                                            jcr:primaryType="nt:unstructured"
+                                            showhidetargetvalue="monograph"/>
+                                    </primary-drug-source-monograph-container>
+                                    <primary-drug-source-new-container
+                                        granite:class="primaryDrugSource-showhide-target"
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <primary-drug-type
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                                granite:class="cq-dialog-dropdown-showhide"
+                                                fieldLabel="Primary Drug Type"
+                                                emptyOption="{Boolean}false"
+                                                required="{Boolean}true"
+                                                name="./primaryDrugType">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <single-substance
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Single Substance"
+                                                        value="Single-Substance"/>
+                                                    <combination-substance
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Combination Substance"
+                                                        value="Combination-Substance"/>
+                                                    <grouping-name
+                                                        jcr:primaryType="nt:unstructured"
+                                                        text="Grouping Name"
+                                                        value="Grouping-Name"/>
+                                                </items>
+                                                <granite:data
+                                                    jcr:primaryType="nt:unstructured"
+                                                    cq-dialog-dropdown-showhide-target=".primaryDrugType-showhide-target"/>
+                                            </primary-drug-type>
+                                            <primary-drug
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                required="{Boolean}true"
+                                                fieldLabel="Primary Drug(s)">
+                                                <field
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    name="./primaryDrugs"/>
+                                            </primary-drug>
+                                            <alternative-names
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/container"
+                                                granite:class="primaryDrugType-showhide-target">
+                                                <items jcr:primaryType="nt:unstructured">
+                                                    <alternative-names
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                                        required="{Boolean}false"
+                                                        fieldLabel="Alternative Names">
+                                                        <field
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                            name="./alternativeNames"/>
+                                                    </alternative-names>
+                                                </items>
+                                                <granite:data
+                                                    jcr:primaryType="nt:unstructured"
+                                                    showhidetargetvalue="Combination-Substance"/>
+                                            </alternative-names>
+                                        </items>
+                                        <granite:data
+                                            jcr:primaryType="nt:unstructured"
+                                            showhidetargetvalue="new"/>
+                                    </primary-drug-source-new-container>
+                                    <manufacturer
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        required="{Boolean}false"
+                                        fieldLabel="Manufacturer"
+                                        name="./manufacturer"/>
+                                    <trade-name
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        required="{Boolean}false"
+                                        fieldLabel="Trade Name"
+                                        name="./tradeName"/>
+                                    <study-period
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        required="{Boolean}false"
+                                        fieldLabel="Study Period"
+                                        name="./studyPeriod"/>
+                                    <method
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        required="{Boolean}false"
+                                        fieldLabel="Method"
+                                        name="./method"/>
+                                    <container
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        required="{Boolean}false"
+                                        fieldLabel="Container"
+                                        name="./containerfield"/>
+                                    <storage
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        required="{Boolean}false"
+                                        fieldLabel="Storage"
+                                        name="./storage"/>
+                                </items>
+                            </column>
+                        </items>
+                    </columns>
+                </items>
+            </primary-drug>
+            <solution
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/include"
+                path="contentauthoring/components/ivcompatibility/content/primary-drug/dialogTabs/solution"/>
+        </items>
+    </content>
+</jcr:root>

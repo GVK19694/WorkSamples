@@ -1,0 +1,22 @@
+<template data-sly-template.validation="${@ headline, headlineLevel, model, resourcepath, pagevalidation}">
+    <div class="validationinfo ${pagevalidation ? 'pagevalidation':''}"
+         data-validation-url="${resourcepath @ extension='json', selectors='component-validation'}"
+         data-component-path="${resourcepath}">
+        <div class="${model.valid ? 'valid' : 'invalid'}-marker marker"></div>
+        <div>
+            <h1 data-sly-test="${headlineLevel == '1'}">${headline}</h1>
+            <h2 data-sly-test="${headlineLevel == '2'}">${headline}</h2>
+            <h3 data-sly-test="${headlineLevel == '3'}">${headline}</h3>
+            <h4 data-sly-test="${headlineLevel == '4'}">${headline}</h4>
+            <h5 data-sly-test="${headlineLevel == '5'}">${headline}</h5>
+            <h6 data-sly-test="${headlineLevel == '6'}">${headline}</h6>
+            <h7 data-sly-test="${headlineLevel == '7'}">${headline}</h7>
+        </div>
+        <ul class="errors">
+            <sly data-sly-list="${model.errors}">
+                <li>${item.message}</li>
+            </sly>
+        </ul>
+        </sly>
+    </div>
+</template>

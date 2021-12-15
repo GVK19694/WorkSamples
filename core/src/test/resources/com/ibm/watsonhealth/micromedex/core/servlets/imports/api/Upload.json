@@ -1,0 +1,53 @@
+{
+    "ivredbookdata": [
+        {
+            "gcr": {
+                "code": 928482,
+                "name": "ABATACEPT",
+                "gfcs": [
+                    {
+                        "gfc_code": 129148,
+                        "roa_code": "IV",
+                        "form": "PDS",
+                        "strength": "125 MG/1 ML",
+                        "product": [
+                            {
+                                "ndc_code": "00003-2188-31",
+                                "name": "ORENCIA PRE-FILLED SYRINGE",
+                                "category": "Rx-only/Trade or Brand Name"
+                            },
+                            {
+                                "ndc_code": "00003-2188-11",
+                                "name": "ORENCIA PRE-FILLED SYRINGE",
+                                "category": "Rx-only/Trade or Brand Name"
+                            },
+                            {
+                                "ndc_code": "00003-2188-51",
+                                "name": "ORENCIA CLICKJECT AUTOINJECTOR",
+                                "category": "Rx-only/Trade or Brand Name"
+                            }
+                        ]
+                    },
+                    {
+                        "gfc_code": 124912,
+                        "roa_code": "IV",
+                        "form": "PDS",
+                        "strength": "250 MG",
+                        "product": [
+                            {
+                                "ndc_code": "00003-2187-13",
+                                "name": "ORENCIA",
+                                "category": "Rx-only/Trade or Brand Name"
+                            },
+                            {
+                                "ndc_code": "00003-2187-10",
+                                "name": "ORENCIA",
+                                "category": "Rx-only/Trade or Brand Name"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

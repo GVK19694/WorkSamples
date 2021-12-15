@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/contentauthoring/clientlibs"/>
+    <filter root="/apps/contentauthoring/components"/>
+    <filter root="/apps/contentauthoring/dialogfields"/>
+    <filter root="/apps/contentauthoring/i18n"/>
+    <filter root="/apps/contentauthoring/oak-index"/>
+    <filter root="/apps/granite/core/components/login"/>
+    <filter root="/apps/granite/core/content/login"/>
+</workspaceFilter>

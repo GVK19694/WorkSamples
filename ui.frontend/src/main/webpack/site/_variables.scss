@@ -1,0 +1,34 @@
+//== Font
+
+$font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size: 16px;
+$font-height: 1.5;
+
+//== Color
+
+// Normal mode
+$color-foreground: #202020;
+$color-background: #ECECEC;
+$color-link: #2020E0;
+
+// Dark mode
+$color-foreground-dark: invert($color-foreground);
+$color-background-dark: invert($color-background);
+$color-link-dark: invert($color-link);
+
+$property-label-color: #7f7f7f;
+$property-label-fonz-size: $font-size - 3px;
+$font-color-errors: #FF0000;
+$background-color-valid-marker: #008800;
+$background-color-invalid-marker: $font-color-errors;
+$background-color-loading-marker: #999999;
+$valid-marker-width: 5px;
+$valid-marker-height: 40px;
+$valid-marker-float: left;
+
+$component-border-left-style: dotted;
+$component-border-left-width: 2px;
+$component-border-left-color: #7f7f7f;
+$component-padding-bottom: 25px;
+
+$padding-left-subcomponents: 30px;

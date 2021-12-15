@@ -1,0 +1,38 @@
+<div data-sly-use.model="com.ibm.watsonhealth.micromedex.core.models.ivcompatibility.Substance" class="cmp-substance">
+
+    <sly data-sly-use.validationTemplate="/apps/contentauthoring/components/commons/templates/validation/validation.html"/>
+    <sly data-sly-call="${validationTemplate.validation @ headline='Substance', headlineLevel='2', model=model, resourcepath=resource.path}"/>
+
+    <ul>
+        <li><span class="property-label">Substance Type:</span> ${model.substanceType.displayName}</li>
+        <li><span class="property-label">Formulation Type:</span> ${model.formulationType.displayName}</li>
+        <li><span class="property-label">Lexicon Substance References:</span>
+            <ul data-sly-test="${model.lexiconSubstanceReferences}" data-sly-list="${model.lexiconSubstanceReferences}">
+                <li> ${item}</li>
+            </ul>
+        <li data-sly-test.alternativeNames="${model.alternativeNames}"><span class="property-label">Alternative Names:</span>
+            <ul data-sly-list="${alternativeNames}">
+                <li> ${item}</li>
+            </ul>
+        </li>
+        <li data-sly-test.substanceTradeNames="${model.substanceTradeNames}"><span class="property-label">Substance Trade Names:</span>
+            <ul data-sly-list="${substanceTradeNames}">
+                <li> ${item}</li>
+            </ul>
+        </li>
+        <li data-sly-test="${model.reconstitution}"><span class="property-label">Reconstitution:</span> ${model.reconstitution}</li>
+        <li data-sly-test.reconstitutionReferenceNames="${model.reconstitutionReferenceNames}">
+            <span class="property-label">Reconstitution Reference Names:</span>
+            <ul data-sly-list="${reconstitutionReferenceNames}">
+                <li> ${item}</li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="cmp-substance__subcomponents"
+         data-sly-resource="${'container' @resourceType = 'contentauthoring/components/ivcompatibility/layout/substance-container'}"></div>
+
+    <script>
+        revalidate();
+    </script>
+</div>

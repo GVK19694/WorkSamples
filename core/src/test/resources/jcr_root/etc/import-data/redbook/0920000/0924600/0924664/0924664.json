@@ -1,0 +1,39 @@
+{
+    "112996": {
+        "jcr:primaryType": "nt:unstructured",
+        "gfcCode": 112996,
+        "form": "SOL",
+        "type": "gfc",
+        "roaCode": "IV",
+        "00264-1915-00": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "PROCALAMINE",
+            "type": "product",
+            "productCategory": "Rx-only/Trade or Brand Name",
+            "ndcCode": "00264-1915-00",
+            "productName-lowercase": "procalamine"
+        },
+        "00264-1915-07": {
+            "jcr:primaryType": "nt:unstructured",
+            "productName": "PROCALAMINE",
+            "type": "product",
+            "productCategory": "Rx-only/Trade or Brand Name",
+            "ndcCode": "00264-1915-07",
+            "productName-lowercase": "procalamine"
+        }
+    },
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:mixinTypes": [
+        "cq:ReplicationStatus"
+    ],
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy": "preReplicationServiceUser",
+    "jcr:created": "Wed Nov 03 2021 09:44:51 GMT+0100",
+    "cq:lastReplicated": "Wed Nov 03 2021 09:50:45 GMT+0100",
+    "gcrCode": 924664,
+    "modified-counter": 1,
+    "name": "Amino Acids and Electrolytes",
+    "type": "gcr",
+    "jcr:lastModified": "Wed Nov 03 2021 09:44:51 GMT+0100",
+    "name-lowercase": "amino acids and electrolytes"
+}

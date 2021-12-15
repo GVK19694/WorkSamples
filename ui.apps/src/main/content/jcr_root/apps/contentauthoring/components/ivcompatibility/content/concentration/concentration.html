@@ -1,0 +1,17 @@
+<div data-sly-use.model="com.ibm.watsonhealth.micromedex.core.models.ivcompatibility.Concentration" class="cmp-concentration">
+
+    <sly data-sly-use.validationTemplate="/apps/contentauthoring/components/commons/templates/validation/validation.html"/>
+    <sly data-sly-call="${validationTemplate.validation @ headline='Concentration', headlineLevel='3', model=model, resourcepath=resource.path, pagevalidation=false}"/>
+
+    <ul>
+        <li><span class="property-label">Concentration:</span> ${model.concentration}</li>
+        <li data-sly-test.studyNotes="${model.studyNotes}"><span class="property-label">Study Notes:</span> ${studyNotes}</li>
+    </ul>
+
+    <div class="cmp-concentration__subcomponents"
+         data-sly-resource="${'container' @resourceType = 'contentauthoring/components/ivcompatibility/layout/concentration-container'}"></div>
+
+    <script>
+        revalidate();
+    </script>
+</div>
